@@ -1606,6 +1606,12 @@ p.testimonial {
 	display: flex;
 	gap: 62px;
 	justify-content: flex-start;
+	/* The column it sits in can be narrower than the combined width of the phone
+	   and email blocks (the email is one unbreakable token), which pinned the
+	   document 5px wider than the viewport at 768px. Wrapping only kicks in
+	   when the items genuinely no longer fit, so wider layouts are untouched. */
+	flex-wrap: wrap;
+	max-width: 100%;
 }
 
 .list-contact .contact span {
@@ -3828,4 +3834,26 @@ a.mapboxgl-ctrl-logo {
 
   a.go-top.show.back-alt {
     bottom: 85px;
+}
+
+/* VETRI KALAM - inline contact links keep the colour of the text around them,
+   and underline on hover so they stay readable on both light and dark blocks. */
+.address a,
+.address address a,
+.phone a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.address a:hover,
+.phone a:hover {
+	text-decoration: underline;
+}
+
+.form-status {
+	margin: 14px 0 0;
+	font-size: 14px;
+	line-height: 21px;
+	color: inherit;
+	opacity: 0.9;
 }

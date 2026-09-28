@@ -1,6 +1,4 @@
 
-import { Link } from "react-router-dom"
-
 export default function Team1() {
 	return (
 		<>
@@ -9,8 +7,8 @@ export default function Team1() {
 				<div className="themeflat-container">
 					<div className="team-member">
 						<div className="title-box title-small center-title-box">
-							<span className="sub-title wow fadeInUp animated">Our team</span>
-							<h2 className="title-section wow fadeInUp animated">our member, couch</h2>
+							<span className="sub-title wow fadeInUp animated">Our approach</span>
+							<h2 className="title-section wow fadeInUp animated">How we deliver events</h2>
 						</div>
 						<div className="row team">
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -20,20 +18,20 @@ export default function Team1() {
 										<div className="team-social">
 											<ul>
 												<li>
-													<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+													<a href="#top"><i className="icon-facebook" /></a>
 												</li>
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+													<a href="#top"><i className="icon-youtube" /></a>
 												</li>
 											</ul>
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">Chris pad</h3>
-									<h4 className="job">Co - Founder Zunzo</h4>
+									<h3 className="name-member">Event Operations</h3>
+									<h4 className="job">Planning & event-day delivery</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -43,20 +41,20 @@ export default function Team1() {
 										<div className="team-social">
 											<ul>
 												<li>
-													<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+													<a href="#top"><i className="icon-facebook" /></a>
 												</li>
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+													<a href="#top"><i className="icon-youtube" /></a>
 												</li>
 											</ul>
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">maverick</h3>
-									<h4 className="job">Manager</h4>
+									<h3 className="name-member">Registration</h3>
+									<h4 className="job">Participant & ticketing</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -66,20 +64,20 @@ export default function Team1() {
 										<div className="team-social">
 											<ul>
 												<li>
-													<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+													<a href="#top"><i className="icon-facebook" /></a>
 												</li>
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+													<a href="#top"><i className="icon-youtube" /></a>
 												</li>
 											</ul>
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">Jessica nguyen</h3>
-									<h4 className="job">Coach</h4>
+									<h3 className="name-member">Sports Coordination</h3>
+									<h4 className="job">Tournaments & competitions</h4>
 								</div>
 							</div>
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -89,20 +87,20 @@ export default function Team1() {
 										<div className="team-social">
 											<ul>
 												<li>
-													<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+													<a href="#top"><i className="icon-facebook" /></a>
 												</li>
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+													<a href="#top"><i className="icon-youtube" /></a>
 												</li>
 											</ul>
 										</div>
 										<div className="shape-team" />
 									</div>
-									<h3 className="name-member">jenifer nolan</h3>
-									<h4 className="job">Co - Founder Zunzo</h4>
+									<h3 className="name-member">Community Sports</h3>
+									<h4 className="job">Local initiatives</h4>
 								</div>
 							</div>
 						</div>

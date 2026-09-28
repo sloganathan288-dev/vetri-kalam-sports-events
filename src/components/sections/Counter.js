@@ -22,9 +22,9 @@ export default function Counter() {
 										</defs>
 									</svg>
 									<div className="content-counter">
-										<CountUp className="numb-count" enableScrollSpy={true} end={196} data-speed={2000} data-waypoint-active="yes">196
+										<CountUp className="numb-count" enableScrollSpy={true} end={6} data-speed={2000} data-waypoint-active="yes">6
 										</CountUp>
-										<div className="name-count"> running awards</div>
+										<div className="name-count">event services</div>
 									</div>
 								</div>{/* /.flat-counter */}
 							</div>
@@ -42,9 +42,9 @@ export default function Counter() {
 										</defs>
 									</svg>
 									<div className="content-counter">
-										<CountUp className="numb-count" enableScrollSpy={true} end={2432} data-speed={2000} data-waypoint-active="yes">2432
+										<CountUp className="numb-count" enableScrollSpy={true} end={5} data-speed={2000} data-waypoint-active="yes">5
 										</CountUp>
-										<div className="name-count">active members</div>
+										<div className="name-count">event formats</div>
 									</div>
 								</div>{/* /.flat-counter */}
 							</div>
@@ -56,9 +56,9 @@ export default function Counter() {
 										<path d="M32.75 18.75H35.25V21.25H32.75V18.75ZM60.25 5H62.75V7.5H60.25V5ZM19 6.25H21.5V8.75H19V6.25Z" fill="#C3E92D" />
 									</svg>
 									<div className="content-counter">
-										<CountUp className="numb-count" enableScrollSpy={true} end={244} data-speed={2000} data-waypoint-active="yes">244
+										<CountUp className="numb-count" enableScrollSpy={true} end={3} data-speed={2000} data-waypoint-active="yes">3
 										</CountUp>
-										<div className="name-count">Run Events</div>
+										<div className="name-count">Compete. Conquer. Celebrate.</div>
 									</div>
 								</div>{/* /.flat-counter */}
 							</div>
@@ -78,9 +78,9 @@ export default function Counter() {
 										</defs>
 									</svg>
 									<div className="content-counter">
-										<CountUp className="numb-count" enableScrollSpy={true} end={85} data-speed={2000} data-waypoint-active="yes">85 Km
+										<CountUp className="numb-count" enableScrollSpy={true} end={1} data-speed={2000} data-waypoint-active="yes">1
 										</CountUp>
-										<div className="name-count">Miles Run</div>
+										<div className="name-count">founder-led</div>
 									</div>
 								</div>{/* /.flat-counter */}
 							</div>

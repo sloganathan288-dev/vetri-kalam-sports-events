@@ -35,7 +35,7 @@ export default function Blog() {
 									<div className="post-wrap">
 										<article className="entry format-standard wow fadeInUp animated">
 											<div className="feature-post">
-												<img src="images/blog/blog1.jpg" alt="image" />
+												<img src="images/blog/blog1.jpg" alt="" />
 											</div>{/* /.feature-post */}
 											<div className="main-post">
 												<div className="tag">
@@ -45,13 +45,13 @@ export default function Blog() {
 														</li>
 													</ul>
 												</div>
-												<h2 className="entry-title"><Link to="/blog-single">The Science Behind Running: How It
-													Benefits Your
-													Body and Mind</Link>
+												<h2 className="entry-title"><Link to="/blog-single">How to Plan a Community Sports
+													Event from Start to
+													Finish</Link>
 												</h2>
 												<div className="entry-meta">by
-													<span className="author line"><Link to="/blog-single">Maverick Nguyen</Link></span>
-													<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+													<span className="author line"><Link to="/blog-single">VETRI KALAM Team</Link></span>
+													<span className="date line"><Link to="/blog-single">Insights</Link></span>
 													<span className="comment">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<g clipPath="url(#clip0_7503_84)">
@@ -68,7 +68,7 @@ export default function Blog() {
 										</article>
 										<article className="entry format-standard wow fadeInUp animated">
 											<div className="feature-post">
-												<img src="images/blog/blog2.jpg" alt="image" />
+												<img src="images/blog/blog2.jpg" alt="" />
 											</div>{/* /.feature-post */}
 											<div className="main-post">
 												<div className="tag">
@@ -78,13 +78,13 @@ export default function Blog() {
 														</li>
 													</ul>
 												</div>
-												<h2 className="entry-title"><Link to="/blog-single">The Best Running Shoes for Every
-													Terrain: Find Your
-													Perfect Fit</Link>
+												<h2 className="entry-title"><Link to="/blog-single">Race-Day Checklist: What Every
+													Participant Should
+													Prepare</Link>
 												</h2>
 												<div className="entry-meta">by
-													<span className="author line"><Link to="/blog-single">Maverick Nguyen</Link></span>
-													<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+													<span className="author line"><Link to="/blog-single">VETRI KALAM Team</Link></span>
+													<span className="date line"><Link to="/blog-single">Insights</Link></span>
 													<span className="comment">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<g clipPath="url(#clip0_7503_84)">
@@ -101,7 +101,7 @@ export default function Blog() {
 										</article>
 										<article className="entry format-standard wow fadeInUp animated">
 											<div className="feature-post">
-												<img src="images/blog/blog3.jpg" alt="image" />
+												<img src="images/blog/blog3.jpg" alt="" />
 											</div>{/* /.feature-post */}
 											<div className="main-post">
 												<div className="tag">
@@ -111,13 +111,13 @@ export default function Blog() {
 														</li>
 													</ul>
 												</div>
-												<h2 className="entry-title"><Link to="/blog-single">From Couch to 5K: A Step-by-Step
-													Guide to Becoming a
-													Runner</Link>
+												<h2 className="entry-title"><Link to="/blog-single">Corporate Sports Days: How to
+													Engage Your Team
+													Through Sport</Link>
 												</h2>
 												<div className="entry-meta">by
-													<span className="author line"><Link to="/blog-single">Maverick Nguyen</Link></span>
-													<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+													<span className="author line"><Link to="/blog-single">VETRI KALAM Team</Link></span>
+													<span className="date line"><Link to="/blog-single">Insights</Link></span>
 													<span className="comment">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<g clipPath="url(#clip0_7503_84)">
@@ -134,9 +134,9 @@ export default function Blog() {
 										</article>
 										<div className="blog-pagination wow fadeInUp animated">
 											<ul className="flat-pagination clearfix">
-												<li><Link to="/#">1</Link></li>
+												<li><Link to="/blog">1</Link></li>
 												<li className="active">2</li>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" /></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" /></Link></li>
 											</ul>
 										</div>{/* /.blog-pagination */}
 									</div>
@@ -147,28 +147,28 @@ export default function Blog() {
 											<div className="textwidget">
 												<div className="profile">
 													<div className="imgae-profile">
-														<img src="images/blog/profile-blog.png" alt="images" />
+														<img src="images/blog/profile-blog.png" alt="" />
 													</div>
 													<div className="content-profile">
-														<span>Maverick Nguyen</span>
-														<p>200 Follower</p>
+														<span>VETRI KALAM Team</span>
+														<p>Where Champions Meet</p>
 														<button className="flat-button">Follow</button>
 													</div>
 												</div>
-												<p>Maverick Nguyen is a writer who draws. He’s the Bestselling author of “Number of The
-													Year”. Donec vitae tortor efficitur</p>
+												<p>VETRI KALAM Sports & Events shares practical guides on event planning,
+													registration and race day for events across Tamil Nadu.</p>
 												<ul className="flat-socials">
 													<li>
-														<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+														<a href="#top"><i className="icon-twitter" /></a>
 													</li>
 													<li>
-														<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
+														<a href="#top"><i className="icon-dribbble" /></a>
 													</li>
 													<li>
-														<Link to="/behance.com"><i className="icon-behance" /></Link>
+														<a href="#top"><i className="icon-behance" /></a>
 													</li>
 													<li>
-														<Link to="/pinterest.com"><i className="icon-pinterest" /></Link>
+														<a href="#top"><i className="icon-pinterest" /></a>
 													</li>
 												</ul>
 											</div>{/* /.textwidget */}
@@ -184,11 +184,11 @@ export default function Blog() {
 										<div className="widget widget-categories">
 											<h5 className="widget-title">Category</h5>
 											<ul>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" />Action<span className="pull-right">1</span></Link></li>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" />adventure<span className="pull-right">2</span></Link></li>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" />console<span className="pull-right">3</span></Link></li>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" />esport<span className="pull-right">4</span></Link></li>
-												<li><Link to="/#"><i className="icon-Arrow---Right-2" />racing<span className="pull-right">5</span></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" />Running<span className="pull-right">1</span></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" />Marathons<span className="pull-right">2</span></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" />Corporate<span className="pull-right">3</span></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" />Community<span className="pull-right">4</span></Link></li>
+												<li><Link to="/blog"><i className="icon-Arrow---Right-2" />Registration<span className="pull-right">5</span></Link></li>
 											</ul>
 										</div>{/* /.widget-categories */}
 										<div className="widget widget-tags">
@@ -196,19 +196,19 @@ export default function Blog() {
 											<div className="tag">
 												<ul>
 													<li>
-														<Link to="/#">Race</Link>
+														<Link to="/blog">Race</Link>
 													</li>
 													<li>
-														<Link to="/#">Running</Link>
+														<Link to="/blog">Running</Link>
 													</li>
 													<li>
-														<Link to="/#">Running</Link>
+														<Link to="/blog">Running</Link>
 													</li>
 													<li>
-														<Link to="/#">Training</Link>
+														<Link to="/blog">Training</Link>
 													</li>
 													<li>
-														<Link to="/#">Events</Link>
+														<Link to="/blog">Events</Link>
 													</li>
 												</ul>
 											</div>
@@ -218,41 +218,41 @@ export default function Blog() {
 											<ul className="popular-news clearfix">
 												<li>
 													<div className="thumb">
-														<img src="images/blog/post1.jpg" alt="image" />
+														<img src="images/blog/post1.jpg" alt="" />
 													</div>
 													<div className="text">
 														<h6>
-															<Link to="/blog-single">10 Effective Tips to Improve Your Running
-																Form</Link>
+															<Link to="/blog-single">How to Prepare for Your First
+																Marathon</Link>
 														</h6>
-														<p className="date-popular-news">Oct 12, 2023</p>
+														<p className="date-popular-news">Insights</p>
 													</div>
 												</li>
 												<li>
 													<div className="thumb">
-														<img src="images/blog/post2.jpg" alt="image" />
+														<img src="images/blog/post2.jpg" alt="" />
 													</div>
 													<div className="text">
-														<h6><Link to="/blog-single">Choosing the Right Running Shoes: A Complete
-															Guide</Link></h6>
-														<p className="date-popular-news">Oct 12, 2023</p>
+														<h6><Link to="/blog-single">A Step-by-Step Registration Guide for
+															Event Organisers</Link></h6>
+														<p className="date-popular-news">Insights</p>
 													</div>
 												</li>
 												<li>
 													<div className="thumb">
-														<img src="images/blog/post3.jpg" alt="image" />
+														<img src="images/blog/post3.jpg" alt="" />
 													</div>
 													<div className="text">
-														<h6><Link to="/blog-single">Nutrition Strategies for Peak Performance in
-															Running</Link></h6>
-														<p className="date-popular-news">Oct 12, 2023</p>
+														<h6><Link to="/blog-single">Why Community Sports Bring People
+															Together</Link></h6>
+														<p className="date-popular-news">Insights</p>
 													</div>
 												</li>
 											</ul>{/* /.popular-news */}
 										</div>{/* /.widget-popular-news */}
 										<div className="widget widget-form-subscribe">
 											<h3>Subscribe For Daily Newsletter</h3>
-											<img src="images/blog/subscribe.png" alt="image" />
+											<img src="images/blog/subscribe.png" alt="" />
 											<form action="/">
 												<input type="email" id="email-sb" name="email" placeholder="Your email address" />
 												<input type="submit" defaultValue="Follow" />

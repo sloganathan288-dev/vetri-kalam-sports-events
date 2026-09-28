@@ -1,0 +1,24 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ],
+  "functions": {
+    "api/export.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    },
+    "api/registrations.js": {
+      "memory": 512,
+      "maxDuration": 15
+    },
+    "api/registrations/[id].js": {
+      "memory": 512,
+      "maxDuration": 15
+    }
+  }
+}

@@ -20,13 +20,13 @@ export default function About2() {
 						<div className="tf-title-wrap title-small">
 							<div className="title-box-v2">
 								<span className="sub-title wow fadeInUp animated">About Us</span>
-								<h2 className="title-section wow fadeInUp animated">Welcome to runclub!</h2>
-								<p className="ab-v2 wow fadeInUp animated">Welcome to our vibrant running community,
-									where we organize exciting running events,
-									provide helpful running tutorials,<br />
-									and keep you informed with the latest running news.</p>
+								<h2 className="title-section wow fadeInUp animated">Welcome to VETRI KALAM!</h2>
+								<p className="ab-v2 wow fadeInUp animated">VETRI KALAM Sports & Events is a full-service sports
+									event management company based in Salem,
+									Tamil Nadu — from participant registration,<br />
+									ticketing and planning through to event-day operations.</p>
 							</div>{/* header style v2 */}
-							<img src="images/retinal/Button.png" className="app-logo-run" alt="image" />
+							<img src="images/retinal/Button.png" className="app-logo-run" alt="" />
 						</div>
 						<Swiper {...swiperOptions} className="swiper image-carousel wow fadeInUp animated">
 							<div className="image-about-us swiper-wrapper">

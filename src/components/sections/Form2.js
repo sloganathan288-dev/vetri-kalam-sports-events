@@ -1,7 +1,9 @@
-
-import { Link } from "react-router-dom"
+import { useState } from 'react'
+import { SERVICES, handleSubmit } from '../../utils/enquiry'
 
 export default function Form2() {
+	const [message, setMessage] = useState('')
+
 	return (
 		<>
 
@@ -11,7 +13,7 @@ export default function Form2() {
 						<div className="row">
 							<div className="col-md-6 pd-form">
 								<div className="map-contact relative">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+									<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="VETRI KALAM Sports & Events location - Salem, Tamil Nadu" />
 								</div>
 							</div>
 							<div className="col-md-6 pd-form">
@@ -22,47 +24,59 @@ export default function Form2() {
 									<div className="list-contact">
 										<div className="contact">
 											<span> Phone: </span>
-											<p className="address">(555) 123-4567</p>
+											<p className="address"><a href="tel:+918838676284">+91 88386 76284</a></p>
 										</div>
 										<div className="contact">
 											<span> Email: </span>
-											<p className="address">hello@zunzo.com</p>
+											<p className="address"><a href="mailto:sloganathan0105@gmail.com">sloganathan0105@gmail.com</a></p>
 										</div>
 									</div>
 									<ul className="social-media">
 										<li>
-											<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+											<a href="#top"><i className="icon-twitter" /></a>
 										</li>
 										<li>
-											<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
+											<a href="#top"><i className="icon-dribbble" /></a>
 										</li>
 										<li>
-											<Link to="/behance.com"><i className="icon-behance" /></Link>
+											<a href="#top"><i className="icon-behance" /></a>
 										</li>
 										<li>
-											<Link to="/pinterest"><i className="icon-pinterest" /></Link>
+											<a href="#top"><i className="icon-pinterest" /></a>
 										</li>
 									</ul>
 									<div className="form-register">
-										<form id="registerform" className="register-form" noValidate>
+										<form
+											id="registerform"
+											className="register-form"
+											onSubmit={(event) => handleSubmit(
+												event,
+												'Event enquiry - VETRI KALAM Sports & Events',
+												[['Name', 'author'], ['Email', 'email'], ['Phone', 'telephone'], ['Interested in', 'sex']],
+												setMessage
+											)}
+										>
 											<fieldset className="name-container">
-												<input type="text" id="author" placeholder="Your name*" className="tb-my-input" name="author" tabIndex={1} size={32} aria-required="true" />
+												<input type="text" id="author" placeholder="Your name*" className="tb-my-input" name="author" tabIndex={1} size={32} aria-required="true" required />
 											</fieldset>
 											<fieldset className="email-container">
-												<input type="text" id="email" placeholder="Your email*" className="tb-my-input" name="email" tabIndex={2} size={32} aria-required="true" />
+												<input type="email" id="email" placeholder="Your email*" className="tb-my-input" name="email" tabIndex={2} size={32} aria-required="true" required />
 											</fieldset>
 											<fieldset className="telephone-container">
-												<input type="text" id="telephone" placeholder="Telephone*" className="tb-my-input" name="telephone" tabIndex={1} size={32} aria-required="true" />
+												<input type="tel" id="telephone" placeholder="Phone number*" className="tb-my-input" name="telephone" tabIndex={1} size={32} aria-required="true" required />
 											</fieldset>
 											<fieldset className="sex-container">
-												<select name="sex" id="sexs" className="tb-my-input" aria-required="true">
-													<option value>Male</option>
-													<option value="female">Female</option>
+												<select name="sex" id="sexs" className="tb-my-input" aria-required="true" required>
+													<option value="">Event or service interested in*</option>
+													{SERVICES.map((service) => (
+														<option key={service.value} value={service.value}>{service.label}</option>
+													))}
 												</select>
 											</fieldset>
 											<p className="form-submit">
-												<input name="submit" type="submit" id="comment-reply" className="submit-register" defaultValue="Join now" />
+												<input name="submit" type="submit" id="comment-reply" className="submit-register" defaultValue="Send enquiry" />
 											</p>
+											{message ? <p className="form-status" role="status">{message}</p> : null}
 										</form>
 									</div>
 								</div>

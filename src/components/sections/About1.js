@@ -11,25 +11,27 @@ export default function About1() {
 							<div className="col-md-6 image-wraper">
 								<div className="media">
 									<div className="media-v1 wow fadeInLeft animated">
-										<img className="mask-media" src="images/about/mask1.png" alt="image" />
-										<img className="shape-media" src="images/about/graphic.png" alt="image" />
+										<img className="mask-media" src="images/about/mask1.png" alt="" />
+										<img className="shape-media" src="images/about/graphic.png" alt="" />
 									</div>
-									<img src="images/about/mask2.png" alt="image" className="image-gr wow fadeInRight animated" />
-									<img src="images/about/Intersect.png" alt="image" className="intersect-img" />
+									<img src="images/about/mask2.png" alt="" className="image-gr wow fadeInRight animated" />
+									<img src="images/about/Intersect.png" alt="" className="intersect-img" />
 								</div>
 							</div>
 							<div className="col-md-6">
 								<div className="about-box">
-									<img src="images/about/graphic-box.png" alt="image shape" />
+									<img src="images/about/graphic-box.png" alt="" />
 									{/* header style v1 */}
 									<div className="title-box title-small-v2">
-										<span className="sub-title wow fadeInUp animated">Welcome to runclub!</span>
-										<h2 className="title-section wow fadeInUp animated">Zunzo - Your Ultimate Running Community
+										<span className="sub-title wow fadeInUp animated">Welcome to VETRI KALAM!</span>
+										<h2 className="title-section wow fadeInUp animated">Where Champions Meet
 										</h2>
 									</div>{/* header style v1 */}
 									<p className="post wow fadeInUp animated">
-										Welcome to our vibrant running community, where we organize exciting running events,
-										provide helpful running tutorials, and keep you informed with the latest running news.
+										Welcome to VETRI KALAM Sports &amp; Events — a sports and event-management
+										organisation based in Salem, Tamil Nadu. We plan and run professional sports
+										events, competitions, marathons, corporate sports days and community sporting
+										activities, with event registration and participant management handled end to end.
 									</p>
 									<div className="line" />
 									<div className="about-button-group">
@@ -37,8 +39,8 @@ export default function About1() {
 										<div className="infor-about">
 											<img src="images/about/info.png" alt="" />
 											<div className="info">
-												<div className="name wow fadeInUp animated">Chris pad</div>
-												<div className="job wow fadeInUp animated">Co - Founder Zunzo</div>
+												<div className="name wow fadeInUp animated">Loganathan</div>
+												<div className="job wow fadeInUp animated">Founder &amp; Event Organizer</div>
 											</div>
 										</div>
 									</div>

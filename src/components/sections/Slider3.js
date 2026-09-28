@@ -28,10 +28,10 @@ export default function Slider3() {
 										</div>
 										<div className="product-content">
 											<div className="content-slide">
-												<span className="sale-up">Up To 15% Sale Off</span>
-												<h2>Looking For Running Shoes</h2>
-												<p className="post">We Help You Finding To Right Shoes</p>
-												<Link to="/#" className="flat-button">Shop Now</Link>
+												<span className="sale-up">Entries Open</span>
+												<h2>Looking For Your Next Event</h2>
+												<p className="post">Where Champions Meet</p>
+												<Link to="/register" className="flat-button">Register Now</Link>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -41,10 +41,10 @@ export default function Slider3() {
 										</div>
 										<div className="product-content">
 											<div className="content-slide">
-												<span className="sale-up">Up To 15% Sale Off</span>
-												<h2>Looking For Running Shoes</h2>
-												<p className="post">We Help You Finding To Right Shoes</p>
-												<Link to="/#" className="flat-button">Shop Now</Link>
+												<span className="sale-up">Entries Open</span>
+												<h2>Register For The Next Event</h2>
+												<p className="post">Compete. Conquer. Celebrate.</p>
+												<Link to="/register" className="flat-button">Register Now</Link>
 											</div>
 										</div>
 									</SwiperSlide>
@@ -57,13 +57,13 @@ export default function Slider3() {
 								<div className="banner-product-wrap">
 									<div className="banner-product-item">
 										<div className="product-image">
-											<img src="images/slides/bannerv1.jpg" alt="Image banner" />
+											<img src="images/slides/bannerv1.jpg" alt="VETRI KALAM Marathon" />
 										</div>
 										<div className="product-content">
 											<div className="content-banner">
-												<span className="sale-up">Save $10</span>
-												<h4><Link to="/#">Launches &amp; New Arrivals</Link></h4>
-												<div className="price">Starting at <span>$59.99</span></div>
+												<span className="sale-up">Salem, Tamil Nadu</span>
+												<h4><Link to="/event-details">VETRI KALAM Marathon</Link></h4>
+												<div className="price">Entry <span>open</span></div>
 											</div>
 										</div>
 									</div>
@@ -73,13 +73,13 @@ export default function Slider3() {
 								<div className="banner-product-wrap">
 									<div className="banner-product-item">
 										<div className="product-image">
-											<img src="images/slides/bannerv2.jpg" alt="Image banner" />
+											<img src="images/slides/bannerv2.jpg" alt="VETRI KALAM Sports Fest" />
 										</div>
 										<div className="product-content">
 											<div className="content-banner">
-												<span className="sale-up">Save $10</span>
-												<h4><Link to="/#">Explore Fitness Accessories</Link></h4>
-												<div className="price">Starting at <span>$59.99</span></div>
+												<span className="sale-up">Salem, Tamil Nadu</span>
+												<h4><Link to="/event-details">VETRI KALAM Sports Fest</Link></h4>
+												<div className="price">Entry <span>open</span></div>
 											</div>
 										</div>
 									</div>

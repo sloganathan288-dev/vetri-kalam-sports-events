@@ -10,15 +10,15 @@ export default function Course2() {
 					<div className="tf-course">
 						{/* header style v2 */}
 						<div className="title-box-v2 center-title-box title-large">
-							<span className="sub-title wow fadeInUp animated">Course/tutorial</span>
-							<h2 className="title-section wow fadeInUp animated">Running Course articles &amp; video<br /> tutorials about
-								running</h2>
+							<span className="sub-title wow fadeInUp animated">Guides &amp; tips</span>
+							<h2 className="title-section wow fadeInUp animated">Participant guides &amp; event-preparation<br /> articles about
+								VETRI KALAM events</h2>
 						</div>{/* header style v2 */}
 						<div className="row">
 							<div className="col-md-4 course">
 								<div className="course-item-wrap course-text wow fadeInUp animated" data-wow-delay="0.1s">
 									<div className="image-course">
-										<span className="date-course">21 Oct</span>
+										<span className="date-course">Guide</span>
 										<img src="images/retinal/tutorial1.jpg" alt="" />
 									</div>
 									<div className="content-course">
@@ -32,7 +32,7 @@ export default function Course2() {
 																<path d="M8.25 8.07812C8.25 8.28523 8.08211 8.45312 7.875 8.45312C7.66789 8.45312 7.5 8.28523 7.5 8.07812C7.5 7.87102 7.66789 7.70312 7.875 7.70312C8.08211 7.70312 8.25 7.87102 8.25 8.07812Z" stroke="white" strokeWidth="1.5" />
 															</g>
 														</svg>
-														Running Tips
+														Participant Guides
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,18 +41,18 @@ export default function Course2() {
 																<path d="M7.5 13.7031V17.4531C7.5 17.652 7.57902 17.8428 7.71967 17.9835C7.86032 18.1241 8.05109 18.2031 8.25 18.2031H17.2894L21 21.2031V9.20312C21 9.00421 20.921 8.81345 20.7803 8.6728C20.6397 8.53214 20.4489 8.45312 20.25 8.45312H16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</g>
 														</svg>
-														12 comments
+														Leave a comment
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Embracing the Journey: Unraveling
-											the Life-Changing
-											Benefits of
-											Running</Link></h5>
-										<p className="description-course">Explore the myriad health advantages that running offers,
-											from enhancing
-											cardiovascular fitness and strengthening...</p>
+										<h5 className="title-course"><Link to="/blog-single">Preparing for Your First
+											Marathon: A Simple
+											Step-by-Step
+											Guide</Link></h5>
+										<p className="description-course">Everything you need before race day,
+											from warming up and pacing
+											yourself to recovering well...</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>
@@ -60,7 +60,7 @@ export default function Course2() {
 							<div className="col-md-4 course">
 								<div className="course-item-wrap course-text wow fadeInUp animated" data-wow-delay="0.3s">
 									<div className="image-course">
-										<span className="date-course">14 Oct</span>
+										<span className="date-course">How-to</span>
 										<img src="images/retinal/tutorial2.jpg" alt="" />
 									</div>
 									<div className="content-course">
@@ -74,7 +74,7 @@ export default function Course2() {
 																<path d="M8.25 8.07812C8.25 8.28523 8.08211 8.45312 7.875 8.45312C7.66789 8.45312 7.5 8.28523 7.5 8.07812C7.5 7.87102 7.66789 7.70312 7.875 7.70312C8.08211 7.70312 8.25 7.87102 8.25 8.07812Z" stroke="white" strokeWidth="1.5" />
 															</g>
 														</svg>
-														Training Programs
+														Event Preparation
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,16 +83,16 @@ export default function Course2() {
 																<path d="M7.5 13.7031V17.4531C7.5 17.652 7.57902 17.8428 7.71967 17.9835C7.86032 18.1241 8.05109 18.2031 8.25 18.2031H17.2894L21 21.2031V9.20312C21 9.00421 20.921 8.81345 20.7803 8.6728C20.6397 8.53214 20.4489 8.45312 20.25 8.45312H16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</g>
 														</svg>
-														2 comments
+														Leave a comment
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Empowerment through Running:
-											Discovering the Key to
-											a Healthier and Happier Life</Link></h5>
-										<p className="description-course">Unleash the freedom of mind and body as you experience the
-											joy and liberation of running. Discover how running...</p>
+										<h5 className="title-course"><Link to="/blog-single">Registration Made Easy:
+											What Every Participant
+											Should Know Before Signing Up</Link></h5>
+										<p className="description-course">How our registration process works, what details you
+											need to provide and how to confirm your entry...</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>
@@ -100,7 +100,7 @@ export default function Course2() {
 							<div className="col-md-4 course">
 								<div className="course-item-wrap course-text wow fadeInUp animated" data-wow-delay="0.5s">
 									<div className="image-course">
-										<span className="date-course">25 Oct</span>
+										<span className="date-course">Checklist</span>
 										<img src="images/retinal/tutorial3.jpg" alt="" />
 									</div>
 									<div className="content-course">
@@ -114,7 +114,7 @@ export default function Course2() {
 																<path d="M8.25 8.07812C8.25 8.28523 8.08211 8.45312 7.875 8.45312C7.66789 8.45312 7.5 8.28523 7.5 8.07812C7.5 7.87102 7.66789 7.70312 7.875 7.70312C8.08211 7.70312 8.25 7.87102 8.25 8.07812Z" stroke="white" strokeWidth="1.5" />
 															</g>
 														</svg>
-														Running Events
+														Event Day Tips
 													</Link>
 													<Link to="/blog-single">
 														<svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -123,16 +123,16 @@ export default function Course2() {
 																<path d="M7.5 13.7031V17.4531C7.5 17.652 7.57902 17.8428 7.71967 17.9835C7.86032 18.1241 8.05109 18.2031 8.25 18.2031H17.2894L21 21.2031V9.20312C21 9.00421 20.921 8.81345 20.7803 8.6728C20.6397 8.53214 20.4489 8.45312 20.25 8.45312H16.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															</g>
 														</svg>
-														09 comments
+														Leave a comment
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<h5 className="title-course"><Link to="/blog-single">Running towards Greatness: Unleash
-											Your Inner
-											Athlete and Embrace the Joy of Fitness</Link></h5>
-										<p className="description-course">Embrace the camaraderie and support of the running
-											community as you connect with like-minded individuals...</p>
+										<h5 className="title-course"><Link to="/blog-single">Event Day Checklist: What
+											to Bring and How to
+											Make the Most of Your Day</Link></h5>
+										<p className="description-course">A simple checklist for participants and volunteers, so
+											everyone knows what to expect on event day...</p>
 									</div>
 									<Link to="/blog-single" className="flat-button">Read more</Link>
 								</div>

@@ -15,6 +15,7 @@ export default function Homev3() {
 		<>
 
 			<Layout headerStyle={2} footerStyle={2} breadcrumbTitle="title" backAlt={true}>
+				<h1 className="visually-hidden">Events &amp; Registration | VETRI KALAM Sports &amp; Events</h1>
 				<Slider3 />
 				<Category />
 				<Product2 />

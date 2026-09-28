@@ -9,23 +9,23 @@ export default function Benefit3() {
 					<div className="tf-benefit-v3">
 						<div className="benefit-item-v3 wow zoomIn animated" data-wow-delay="0.1s">
 							<i className="icon-phone-call" />
-							<h6>24/7 Customer Service</h6>
-							<p>We're here to help you with any questions or concerns you have, 24/7.</p>
+							<h6>Event-day support</h6>
+							<p>Our team is on site on event day to keep every race and match running smoothly.</p>
 						</div>
 						<div className="benefit-item-v3 wow zoomIn animated" data-wow-delay="0.3s">
 							<i className="icon-Return1" />
-							<h6>14-Day Money Back</h6>
-							<p>If you're not satisfied with your purchase, simply return it within 14 days for a refund.</p>
+							<h6>Registration assistance</h6>
+							<p>Need help with entry? We guide participants through every step of the registration process.</p>
 						</div>
 						<div className="benefit-item-v3 wow zoomIn animated" data-wow-delay="0.5s">
 							<i className="icon-guarantee" />
-							<h6>Our Guarantee</h6>
-							<p>We stand behind our products and services and guarantee your satisfaction.</p>
+							<h6>End-to-end management</h6>
+							<p>From planning to podium, we manage every stage of your sports event.</p>
 						</div>
 						<div className="benefit-item-v3 wow zoomIn animated" data-wow-delay="0.7s">
 							<i className="icon-delivery-truck-11" />
-							<h6>Shipping worldwide</h6>
-							<p>We ship our products worldwide, making them accessible to customers everywhere.</p>
+							<h6>Salem, Tamil Nadu based</h6>
+							<p>Proudly organising running and sports events from Salem, Tamil Nadu, India.</p>
 						</div>
 					</div>
 				</div>

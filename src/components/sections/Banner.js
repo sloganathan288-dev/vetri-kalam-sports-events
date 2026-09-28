@@ -9,11 +9,11 @@ export default function Banner() {
 				<div className="themeflat-container">
 					<div className="tf-banne-paralax">
 						<h2 className="title-banner wow fadeInUp animated ">
-							Join our running club now
+							Register for the next VETRI KALAM event
 						</h2>
-						<span className="sale wow fadeInUp animated ">-30%</span>
-						<img src="images/retinal/runclub.png" alt="runclub" className="wow fadeInUp animated" />
-						<Link to="/contact" className="flat-button wow fadeInUp animated ">Join now</Link>
+						<span className="sale wow fadeInUp animated ">OPEN</span>
+						<img src="images/retinal/vk-wordmark.png" alt="VETRI KALAM Sports &amp; Events" className="wow fadeInUp animated" />
+						<Link to="/contact" className="flat-button wow fadeInUp animated ">Register now</Link>
 					</div>
 				</div>
 			</div>

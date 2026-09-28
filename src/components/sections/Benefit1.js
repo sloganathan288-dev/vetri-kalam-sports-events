@@ -14,8 +14,8 @@ export default function Benefit1() {
 					<div className="tf-benefit">
 						{/* header style v2 */}
 						<div className="title-box-v2 center-title-box title-large">
-							<span className="sub-title wow fadeInUp animated">running's benefits</span>
-							<h2 className="title-section wow fadeInUp animated">Benefits of running reference</h2>
+							<span className="sub-title wow fadeInUp animated">our promise</span>
+							<h2 className="title-section wow fadeInUp animated">Why choose VETRI KALAM</h2>
 						</div>{/* header style v2 */}
 						<div className="benefit-wrap-content">
 							<div className="row">
@@ -23,10 +23,10 @@ export default function Benefit1() {
 									<div className="benefit-item">
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInLeft animated">
-												Be healthy
+												Running & Marathon Events
 											</h6>
 											<p className="description-benefit wow fadeInLeft animated">
-												Improve your physical fitness and well-being through regular running.
+												Marathon and road-race concepts planned from route design to the finish line.
 											</p>
 										</div>
 										<div className="benefit-number">
@@ -36,10 +36,10 @@ export default function Benefit1() {
 									<div className="benefit-item">
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInLeft animated">
-												Feel Free
+												Sports Competitions
 											</h6>
 											<p className="description-benefit wow fadeInLeft animated">
-												Experience the freedom of running outdoors, and challenging yourself.
+												Tournaments and competitions coordinated for clubs, schools and communities.
 											</p>
 										</div>
 										<div className="benefit-number">
@@ -66,10 +66,10 @@ export default function Benefit1() {
 										</div>
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInRight animated">
-												Be one of us
+												Corporate Sports Events
 											</h6>
 											<p className="description-benefit wow fadeInRight animated">
-												Join a supportive community of like-minded runners and achieving goals together.
+												Team-focused sports days shaped around your company and its people.
 											</p>
 										</div>
 									</div>
@@ -79,9 +79,9 @@ export default function Benefit1() {
 										</div>
 										<div className="benefit-content">
 											<h6 className="title-benefit wow fadeInRight animated">
-												be strong</h6>
+												Community Sports Events</h6>
 											<p className="description-benefit wow fadeInRight animated">
-												Build resilience and mental toughness as you push your limits.
+												Local sporting initiatives that bring Salem communities together.
 											</p>
 										</div>
 									</div>

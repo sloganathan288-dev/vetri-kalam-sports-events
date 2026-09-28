@@ -10,7 +10,7 @@ export default function Product() {
 					<div className="tf-product">
 						{/* header style v2 */}
 						<div className="title-box-v2 title-large center-title-box">
-							<h2 className="title-section wow fadeInUp animated">Product</h2>
+							<h2 className="title-section wow fadeInUp animated">Our services</h2>
 						</div>{/* header style v2 */}
 						<div className="row">
 							<div className="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -19,9 +19,9 @@ export default function Product() {
 										<img src="images/product/1.jpg" alt="" />
 									</div>
 									<div className="product-content">
-										<h6 className="title-product"><Link to="/#">Basic fuseau leggings</Link></h6>
-										<div className="category-product"><Link to="/#">Glurmarket</Link></div>
-										<div className="price">$68.00</div>
+										<h6 className="title-product"><Link to="/event">Running & Marathon Events</Link></h6>
+										<div className="category-product"><Link to="/event">VETRI KALAM</Link></div>
+										<div className="price">Entry open</div>
 									</div>
 								</div>
 							</div>
@@ -31,12 +31,12 @@ export default function Product() {
 										<img src="images/product/2.jpg" alt="" />
 									</div>
 									<div className="product-content">
-										<h6 className="title-product"><Link to="/#">running pant</Link></h6>
-										<span className="category-product"><Link to="/#">Glurmarket</Link></span>
+										<h6 className="title-product"><Link to="/event">Sports Competitions</Link></h6>
+										<span className="category-product"><Link to="/event">VETRI KALAM</Link></span>
 										<div className="price">
-											<span className="price-sale">$68.00</span>
-											<span className="price-product">$98.00</span>
-											<span className="percent-sale">-25%</span>
+											<span className="price-sale">Entry</span>
+											<span className="price-product"> open</span>
+											<span className="percent-sale"></span>
 										</div>
 									</div>
 								</div>
@@ -47,9 +47,9 @@ export default function Product() {
 										<img src="images/product/3.jpg" alt="" />
 									</div>
 									<div className="product-content">
-										<h6 className="title-product"><Link to="/#">Basic fuseau leggings</Link></h6>
-										<span className="category-product"><Link to="/#">Glurmarket</Link></span>
-										<span className="price">$68.00</span>
+										<h6 className="title-product"><Link to="/event">Corporate Sports Events</Link></h6>
+										<span className="category-product"><Link to="/event">VETRI KALAM</Link></span>
+										<span className="price">Entry open</span>
 									</div>
 								</div>
 							</div>
@@ -59,9 +59,9 @@ export default function Product() {
 										<img src="images/product/4.jpg" alt="" />
 									</div>
 									<div className="product-content">
-										<h6 className="title-product"><Link to="/#">Basic fuseau leggings</Link></h6>
-										<span className="category-product"><Link to="/#">Glurmarket</Link></span>
-										<span className="price">$68.00</span>
+										<h6 className="title-product"><Link to="/event">Event Registration & Ticketing</Link></h6>
+										<span className="category-product"><Link to="/event">VETRI KALAM</Link></span>
+										<span className="price">Entry open</span>
 									</div>
 								</div>
 							</div>

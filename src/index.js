@@ -17,6 +17,7 @@ import "./stylesheets/animate.min.css"
 import "./stylesheets/swiper-bundle.min.css"
 import "./stylesheets/magnific-popup.min.css"
 import "./stylesheets/map.min.css"
+import "./stylesheets/registration.css"
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

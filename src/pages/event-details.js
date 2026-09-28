@@ -1,8 +1,10 @@
 
 
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import Layout from "../components/layout/Layout"
+import { quickSubmit } from "../utils/quickRegister"
 export default function EventDetails() {
+	const navigate = useNavigate()
 
 	return (
 		<>
@@ -31,19 +33,19 @@ export default function EventDetails() {
 					<div className="tf-widget-events">
 						<div className="themeflat-container">
 							<div className="event-detail-box">
-								<h2 className="title-event-detail title-small wow fadeInUp animated ">Running Events Coming Up include</h2>
+								<h2 className="title-event-detail title-small wow fadeInUp animated ">VETRI KALAM Events Coming Up</h2>
 								<div className="detail-box-content">
 									<div className="image-event">
-										<img src="images/evtent/evt2.jpg" alt="Image Events" className="wow fadeInLeft animated" />
+										<img src="images/evtent/evt2.jpg" alt="VETRI KALAM sports event" className="wow fadeInLeft animated" />
 									</div>
 									<div className="event-detail-card">
 										<div className="event-detail-container">
-											<h4 className="event-detail-heading">Ticket</h4>
+											<h4 className="event-detail-heading">Registration</h4>
 											<p className="price">
-												<span>$45</span>
-												<span className="ticket-price">/ticket</span>
+												<span>Entry open</span>
+												<span className="ticket-price"></span>
 											</p>
-											<p className="event-title">Zunzo Fun Run 2023 - Run, Connect, Thrive!</p>
+											<p className="event-title">VETRI KALAM Community Run - Compete. Conquer. Celebrate.</p>
 											<div className="event-date-time-or-location">
 												<div className="event-date-time">
 													<svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +58,7 @@ export default function EventDetails() {
 															</clipPath>
 														</defs>
 													</svg>
-													<p>oct 20, 2023</p>
+													<p>Date to be announced</p>
 												</div>
 												<div className="event-date-time">
 													<svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +71,7 @@ export default function EventDetails() {
 															</clipPath>
 														</defs>
 													</svg>
-													<p>Start 06:00 AM - Until Finish</p>
+													<p>Time to be announced</p>
 												</div>
 												<div className="event-date-time">
 													<svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,11 +84,11 @@ export default function EventDetails() {
 															</clipPath>
 														</defs>
 													</svg>
-													<p>710 1st St. Easton, PA 18042 | Chester County</p>
+													<p>Salem, Tamil Nadu, India</p>
 												</div>
 											</div>
 											<div className="btn-learn-more">
-												<Link to="/event-details" className="flat-button">Join now</Link>
+												<Link to="/register" className="flat-button">Join now</Link>
 											</div>
 										</div>
 									</div>
@@ -95,11 +97,11 @@ export default function EventDetails() {
 							<div className="row">
 								<div className="col-md-6">
 									<div className="event-detail-content">
-										<h3 className="wow fadeInUp animated">Zunzo Fun Run 2023 - Run, Connect, Thrive!</h3>
-										<p className="post wow fadeInUp animated">Zunzo is delighted to present our exciting running event -
-											"Zunzo Fun Run 2023." Get ready to embark on a thrilling running adventure, where you can
-											connect with a passionate running community and experience the full joy of this amazing
-											sport.</p>
+										<h3 className="wow fadeInUp animated">VETRI KALAM Community Run - Compete. Conquer. Celebrate.</h3>
+										<p className="post wow fadeInUp animated">The VETRI KALAM Community Run brings athletes, families and first-time
+											runners together for a well-organised race day in Salem, from registration and bibs to
+											route marking, hydration and the finish-line celebration - every detail is planned by
+											our team.</p>
 										<ul>
 											<li className="wow fadeInUp animated">
 												<span>
@@ -125,7 +127,7 @@ export default function EventDetails() {
 														<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 														<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 													</svg>
-													Charitable Giving
+													Family-Friendly Race Day
 												</span>
 											</li>
 											<li className="wow fadeInUp animated">
@@ -138,9 +140,9 @@ export default function EventDetails() {
 												</span>
 											</li>
 										</ul>
-										<p className="post regis-now wow fadeInUp animated">Register now, and don't miss out on this
-											incredible opportunity!</p>
-										<Link to="/contact" className="flat-button wow fadeInUp animated">Register now</Link>
+										<p className="post regis-now wow fadeInUp animated">Registration for this event is open online - complete the
+											form to record your entry.</p>
+										<Link to="/register" className="flat-button wow fadeInUp animated">Register now</Link>
 									</div>
 								</div>
 								<div className="col-md-6">
@@ -158,7 +160,7 @@ export default function EventDetails() {
 								<div className="row">
 									<div className="col-md-6 pd-form">
 										<div className="map-contact relative">
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
 										</div>
 									</div>
 									<div className="col-md-6 pd-form">
@@ -169,29 +171,29 @@ export default function EventDetails() {
 											<div className="list-contact">
 												<div className="contact">
 													<span> Phone: </span>
-													<div className="address">(555) 123-4567</div>
+													<div className="address">+91 88386 76284</div>
 												</div>
 												<div className="contact">
 													<span> Email: </span>
-													<div className="address">hello@zunzo.com</div>
+													<div className="address">sloganathan0105@gmail.com</div>
 												</div>
 											</div>
 											<ul className="social-media">
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
+													<a href="#top"><i className="icon-dribbble" /></a>
 												</li>
 												<li>
-													<Link to="/behance.com"><i className="icon-behance" /></Link>
+													<a href="#top"><i className="icon-behance" /></a>
 												</li>
 												<li>
-													<Link to="/pinterest.com"><i className="icon-pinterest" /></Link>
+													<a href="#top"><i className="icon-pinterest" /></a>
 												</li>
 											</ul>
 											<div className="form-register">
-												<form id="registerform" className="register-form" noValidate>
+												<form id="registerform" className="register-form" noValidate onSubmit={(event) => quickSubmit(event, navigate)}>
 													<fieldset className="name-container">
 														<input type="text" id="author" placeholder="Your name*" className="tb-my-input" name="author" tabIndex={1} size={32} aria-required="true" />
 													</fieldset>
@@ -203,8 +205,8 @@ export default function EventDetails() {
 													</fieldset>
 													<fieldset className="sex-container">
 														<select name="sex" id="sexs" className="tb-my-input" aria-required="true">
-															<option value>Male</option>
-															<option value="female">Female</option>
+															<option value="Male">Male</option>
+															<option value="Female">Female</option>
 														</select>
 													</fieldset>
 													<p className="form-submit">

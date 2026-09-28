@@ -2,9 +2,11 @@
 
 import { useState } from "react"
 import CountUp from 'react-countup'
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import Layout from "../components/layout/Layout"
+import { quickSubmit } from "../utils/quickRegister"
 export default function About() {
+	const navigate = useNavigate()
 	const [isTab, setIsTab] = useState(1)
 	const handleTab = (i) => {
 		setIsTab(i)
@@ -41,25 +43,25 @@ export default function About() {
 									<div className="col-md-6 image-wraper">
 										<div className="media">
 											<div className="media-v1">
-												<img className="mask-media wow fadeInLeft animated" src="images/about/mask1.png" alt="image" />
-												<img className="shape-media wow fadeInRight animated" src="images/about/graphic.png" alt="image" />
+												<img className="mask-media wow fadeInLeft animated" src="images/about/mask1.png" alt="" />
+												<img className="shape-media wow fadeInRight animated" src="images/about/graphic.png" alt="" />
 											</div>
-											<img src="images/about/mask2.png" alt="image" className="image-gr wow fadeInRight animated" />
-											<img src="images/about/Intersect.png" alt="image" className="intersect-img" />
+											<img src="images/about/mask2.png" alt="" className="image-gr wow fadeInRight animated" />
+											<img src="images/about/Intersect.png" alt="" className="intersect-img" />
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="about-box">
-											<img src="images/about/graphic-box.png" alt="image shape" />
+											<img src="images/about/graphic-box.png" alt="" />
 											{/* header style v1 */}
 											<div className="title-box title-small-v2">
-												<span className="sub-title wow fadeInUp animated">Welcome to runclub!</span>
-												<h2 className="title-section wow fadeInUp animated">Zunzo - Your Ultimate Running Community
+												<span className="sub-title wow fadeInUp animated">Welcome to VETRI KALAM!</span>
+												<h2 className="title-section wow fadeInUp animated">VETRI KALAM - Professional Sports Events, Managed End to End
 												</h2>
 											</div>{/* header style v1 */}
 											<p className="post wow fadeInUp animated">
-												Welcome to our vibrant running community, where we organize exciting running events,
-												provide helpful running tutorials, and keep you informed with the latest running news.
+												VETRI KALAM Sports & Events plans and manages sporting events across Salem,
+												Tamil Nadu - from registration and ticketing through to smooth event-day operations.
 											</p>
 											<div className="line" />
 											<div className="about-button-group">
@@ -67,8 +69,8 @@ export default function About() {
 												<div className="infor-about">
 													<img src="images/about/info.png" alt="" />
 													<div className="info">
-														<div className="name wow fadeInUp animated">Chris pad</div>
-														<div className="job wow fadeInUp animated">Co - Founder Zunzo</div>
+														<div className="name wow fadeInUp animated">Loganathan</div>
+														<div className="job wow fadeInUp animated">Founder & Event Organizer</div>
 													</div>
 												</div>
 											</div>
@@ -98,7 +100,7 @@ export default function About() {
 											<div className="content-counter">
 												<CountUp className="numb-count" enableScrollSpy={true} end={196} data-speed={2000} data-waypoint-active="yes">196
 												</CountUp>
-												<div className="name-count"> running awards</div>
+												<div className="name-count"> Running & Marathon Events</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -111,7 +113,7 @@ export default function About() {
 											<div className="content-counter">
 												<CountUp className="numb-count" enableScrollSpy={true} end={2432} data-speed={2000} data-waypoint-active="yes">2432
 												</CountUp>
-												<div className="name-count">active members</div>
+												<div className="name-count">Sports Competitions</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -125,7 +127,7 @@ export default function About() {
 											<div className="content-counter">
 												<CountUp className="numb-count" enableScrollSpy={true} end={244} data-speed={2000} data-waypoint-active="yes">244
 												</CountUp>
-												<div className="name-count">Run Events</div>
+												<div className="name-count">Corporate Sports Events</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -147,7 +149,7 @@ export default function About() {
 											<div className="content-counter">
 												<CountUp className="numb-count" enableScrollSpy={true} end={85} data-speed={2000} data-waypoint-active="yes"> 85 Km
 												</CountUp>
-												<div className="name-count">Miles Run</div>
+												<div className="name-count">Community Sports Events</div>
 											</div>
 										</div>{/* /.flat-counter */}
 									</div>
@@ -160,8 +162,8 @@ export default function About() {
 							<div className="row">
 								<div className="col-md-12 col-lg-7">
 									<div className="image-mission-wrap">
-										<img src="images/about/tab1.jpg" alt="Image" className="image-v1 wow fadeInRight animated" />
-										<img src="images/about/tab2.jpg" alt="Image" className="image-v2 wow fadeInLeft animated" />
+										<img src="images/about/tab1.jpg" alt="VETRI KALAM sports event" className="image-v1 wow fadeInRight animated" />
+										<img src="images/about/tab2.jpg" alt="VETRI KALAM sports event" className="image-v2 wow fadeInLeft animated" />
 									</div>
 								</div>
 								<div className="col-md-12 col-lg-5">
@@ -181,24 +183,24 @@ export default function About() {
 													<img src="images/about/4.png" alt="" />
 												</li>
 												<li className="wow fadeInUp animated" data-wow-delay="0.5s">
-													<div className="number-m">5m</div>
+													<div className="number-m">VK</div>
 												</li>
 											</ul>
-											<span className="wow fadeInUp animated">Trusted by 50M+ People around the globe</span>
+											<span className="wow fadeInUp animated">Sports events managed end to end across Salem, Tamil Nadu</span>
 										</div>
 										<div className="mission-tab">
 											<nav>
 												<div className="nav nav-tabs" id="nav-tab" role="tablist">
 													<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="nav-home-tab" onClick={() => handleTab(1)}>our Mission</button>
-													<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Mission</button>
+													<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Vision</button>
 												</div>
 											</nav>
 											<div className="tab-content" id="nav-tabContent">
 												<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="nav-home-tab">
 													<p className="post wow fadeInUp animated">
-														Our objective for this project was to develop a comprehensive financial
-														management platform that provided users with a centralized dashboard for
-														managing their finances.
+														Our mission is to plan and deliver sporting events that athletes,
+														communities and corporate teams look forward to, with every detail handled
+														from registration to the finish line.
 													</p>
 													<ul>
 														<li className="wow fadeInUp animated" data-wow-delay="0.1s">
@@ -207,7 +209,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Identification of monthly income
+																End-to-end event planning and logistics
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -216,7 +218,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Creation of savings and investment plan
+																Participant registration and ticketing
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.3s">
@@ -225,7 +227,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Sports coordination and venue operations
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.4s">
@@ -234,16 +236,16 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Community and corporate sports events
 															</span>
 														</li>
 													</ul>
 												</div>
 												<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 													<p className="post wow fadeInUp animated">
-														Our objective for this project was to develop a comprehensive financial
-														management platform that provided users with a centralized dashboard for
-														managing their finances.
+														Our vision is to make Salem a regular stop for quality sports events
+														in Tamil Nadu, where every participant competes with confidence and
+														celebrates the finish.
 													</p>
 													<ul>
 														<li className="wow fadeInUp animated" data-wow-delay="0.1s">
@@ -252,7 +254,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Identification of monthly income
+																End-to-end event planning and logistics
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.2s">
@@ -261,7 +263,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Creation of savings and investment plan
+																Participant registration and ticketing
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.3s">
@@ -270,7 +272,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Sports coordination and venue operations
 															</span>
 														</li>
 														<li className="wow fadeInUp animated" data-wow-delay="0.4s">
@@ -279,7 +281,7 @@ export default function About() {
 																	<path fillRule="evenodd" clipRule="evenodd" d="M10 0C4.48438 0 0 4.48438 0 10C0 15.5156 4.48438 20 10 20C15.5156 20 20 15.5156 20 10C20 4.48438 15.5156 0 10 0Z" fill="#C3E92D" />
 																	<path d="M14.4776 6.9806L14.4776 6.98061L14.4804 6.98344C14.5274 7.03036 14.5274 7.11222 14.4804 7.15914L8.62106 13.0185C8.59595 13.0436 8.56393 13.0557 8.5332 13.0557C8.50248 13.0557 8.47045 13.0436 8.44535 13.0185L5.51566 10.0888C5.46874 10.0419 5.46874 9.96005 5.51566 9.91312C5.56259 9.8662 5.64444 9.8662 5.69137 9.91312L8.17965 12.4014L8.5332 12.755L8.88676 12.4014L14.3047 6.98344L14.3047 6.98345L14.3075 6.9806C14.3538 6.93355 14.4313 6.93355 14.4776 6.9806Z" fill="#121212" stroke="#121212" />
 																</svg>
-																Management and calculation of monthly expenses
+																Community and corporate sports events
 															</span>
 														</li>
 													</ul>
@@ -296,10 +298,10 @@ export default function About() {
 						<div className="themeflat-container">
 							<div className="tf-banne-paralax">
 								<h2 className="title-banner wow fadeInUp animated">
-									Join our running club now
+									Register for the next VETRI KALAM event
 								</h2>
-								<span className="sale wow fadeInUp animated">-30%</span>
-								<img src="images/retinal/runclub.png" alt="runclub" className="wow fadeInUp animated" />
+								<span className="sale wow fadeInUp animated">OPEN</span>
+								<img src="images/retinal/vk-wordmark.png" alt="VETRI KALAM Sports & Events" className="wow fadeInUp animated" />
 								<Link to="/contact" className="flat-button wow fadeInUp animated">Join now</Link>
 							</div>
 						</div>
@@ -309,8 +311,8 @@ export default function About() {
 						<div className="themeflat-container">
 							<div className="team-member">
 								<div className="title-box title-small center-title-box">
-									<span className="sub-title wow fadeInUp animated">Our team</span>
-									<h2 className="title-section wow fadeInUp animated">our member, couch</h2>
+									<span className="sub-title wow fadeInUp animated">What we do</span>
+									<h2 className="title-section wow fadeInUp animated">end-to-end event capabilities</h2>
 								</div>
 								<div className="row team">
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -320,10 +322,10 @@ export default function About() {
 												<div className="team-social">
 													<ul>
 														<li>
-															<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+															<a href="#top"><i className="icon-facebook" /></a>
 														</li>
 														<li>
-															<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+															<a href="#top"><i className="icon-twitter" /></a>
 														</li>
 														<li>
 															<a><i className="icon-youtube" /></a>
@@ -332,8 +334,8 @@ export default function About() {
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">Chris pad</h3>
-											<h4 className="job">Co - Founder Zunzo</h4>
+											<h3 className="name-member">Event Operations</h3>
+											<h4 className="job">Planning & event-day delivery</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -343,20 +345,20 @@ export default function About() {
 												<div className="team-social">
 													<ul>
 														<li>
-															<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+															<a href="#top"><i className="icon-facebook" /></a>
 														</li>
 														<li>
-															<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+															<a href="#top"><i className="icon-twitter" /></a>
 														</li>
 														<li>
-															<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+															<a href="#top"><i className="icon-youtube" /></a>
 														</li>
 													</ul>
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">maverick</h3>
-											<h4 className="job">Manager</h4>
+											<h3 className="name-member">Registration</h3>
+											<h4 className="job">Participant & ticketing</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -366,20 +368,20 @@ export default function About() {
 												<div className="team-social">
 													<ul>
 														<li>
-															<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+															<a href="#top"><i className="icon-facebook" /></a>
 														</li>
 														<li>
-															<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+															<a href="#top"><i className="icon-twitter" /></a>
 														</li>
 														<li>
-															<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+															<a href="#top"><i className="icon-youtube" /></a>
 														</li>
 													</ul>
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">Jessica nguyen</h3>
-											<h4 className="job">Coach</h4>
+											<h3 className="name-member">Sports Coordination</h3>
+											<h4 className="job">Tournaments & competitions</h4>
 										</div>
 									</div>
 									<div className="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-xxl-3">
@@ -389,20 +391,20 @@ export default function About() {
 												<div className="team-social">
 													<ul>
 														<li>
-															<Link to="/facebook.com"><i className="icon-facebook" /></Link>
+															<a href="#top"><i className="icon-facebook" /></a>
 														</li>
 														<li>
-															<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+															<a href="#top"><i className="icon-twitter" /></a>
 														</li>
 														<li>
-															<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+															<a href="#top"><i className="icon-youtube" /></a>
 														</li>
 													</ul>
 												</div>
 												<div className="shape-team" />
 											</div>
-											<h3 className="name-member">jenifer nolan</h3>
-											<h4 className="job">Co - Founder Zunzo</h4>
+											<h3 className="name-member">Community Sports</h3>
+											<h4 className="job">Local initiatives</h4>
 										</div>
 									</div>
 								</div>
@@ -416,7 +418,7 @@ export default function About() {
 								<div className="row">
 									<div className="col-md-6 pd-form">
 										<div className="map-contact relative">
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan Rafael%2C California%2C Hoa Kỳ!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
 										</div>
 									</div>
 									<div className="col-md-6 pd-form">
@@ -427,29 +429,29 @@ export default function About() {
 											<div className="list-contact">
 												<div className="contact">
 													<span> Phone: </span>
-													<div className="address">(555) 123-4567</div>
+													<div className="address">+91 88386 76284</div>
 												</div>
 												<div className="contact">
 													<span> Email: </span>
-													<div className="address">hello@zunzo.com</div>
+													<div className="address">sloganathan0105@gmail.com</div>
 												</div>
 											</div>
 											<ul className="social-media">
 												<li>
-													<Link to="/twitter.com"><i className="icon-twitter" /></Link>
+													<a href="#top"><i className="icon-twitter" /></a>
 												</li>
 												<li>
-													<Link to="/dribbble.com"><i className="icon-dribbble" /></Link>
+													<a href="#top"><i className="icon-dribbble" /></a>
 												</li>
 												<li>
-													<Link to="/behance.com"><i className="icon-behance" /></Link>
+													<a href="#top"><i className="icon-behance" /></a>
 												</li>
 												<li>
-													<Link to="/pinterest.com"><i className="icon-pinterest" /></Link>
+													<a href="#top"><i className="icon-pinterest" /></a>
 												</li>
 											</ul>
 											<div className="form-register">
-												<form id="registerform" className="register-form" noValidate>
+												<form id="registerform" className="register-form" noValidate onSubmit={(event) => quickSubmit(event, navigate)}>
 													<fieldset className="name-container">
 														<input type="text" id="author" placeholder="Your name*" className="tb-my-input" name="author" tabIndex={1} size={32} aria-required="true" />
 													</fieldset>
@@ -461,8 +463,8 @@ export default function About() {
 													</fieldset>
 													<fieldset className="sex-container">
 														<select name="sex" id="sexs" className="tb-my-input" aria-required="true">
-															<option value>Male</option>
-															<option value="female">Female</option>
+															<option value="Male">Male</option>
+															<option value="Female">Female</option>
 														</select>
 													</fieldset>
 													<p className="form-submit">

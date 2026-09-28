@@ -10,7 +10,7 @@ export default function Blog() {
 					<div className="widget-tf-blog">
 						<div className="tf-title-wrap title-small">
 							<h2 className="title-blog wow fadeInUp animated">
-								Our Blogs
+								News & Guides
 							</h2>
 							<Link to="/blog" className="view-more wow fadeInUp animated">View all
 								<svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,23 +25,23 @@ export default function Blog() {
 							<div className="col-md-12 col-lg-6 col-xl-6 col-xxl-6 widget-blog-left">
 								<article className="entry-widget-blog format-standard wow fadeInLeft animated">
 									<div className="feature-post">
-										<img src="images/blog/post-widget1.jpg" alt="image" />
+										<img src="images/blog/post-widget1.jpg" alt="" />
 									</div>{/* /.feature-post */}
 									<div className="main-post">
 										<div className="tag">
 											<ul>
 												<li>
-													<Link to="/blog-single">Running</Link>
+													<Link to="/blog-single">Race Guide</Link>
 												</li>
 											</ul>
 										</div>
-										<h2 className="entry-title"><Link to="/blog-single">10 Essential Tips for Beginner
-											Runners: Start Your
-											Running Journey Right</Link>
+										<h2 className="entry-title"><Link to="/blog-single">How to Prepare for Your First 10K:
+											Training, Gear and
+											Race-Morning Basics</Link>
 										</h2>
 										<div className="entry-meta">
-											<span className="author line"><Link to="/blog-single">by Tony Nguyen </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line"><Link to="/blog-single">by VETRI KALAM Team</Link></span>
+											<span className="date line"><Link to="/blog-single">Guide</Link></span>
 										</div>
 										<Link className="more-link" to="/blog-single">Read More</Link>
 										{/* /.entry-meta */}
@@ -51,23 +51,23 @@ export default function Blog() {
 							<div className="col-md-12 col-lg-6 col-xl-6 col-xxl-6 widget-blog-right">
 								<article className="entry-item format-standard">
 									<div className="feature-post">
-										<img src="images/blog/post-widget2.jpg" alt="image" />
+										<img src="images/blog/post-widget2.jpg" alt="" />
 									</div>{/* /.feature-post */}
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Race</Link></li>
+												<li><Link to="/blog-single">Community</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">The Science
-											Behind Running:
-											How It Benefits Your
-											Body
-											and Mind</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">Community Sports Events: How
+											Local Neighbourhoods
+											Come Together for
+											Active Days
+											</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Rae Lil </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line">by <Link to="/blog-single">VETRI KALAM Team</Link></span>
+											<span className="date line"><Link to="/blog-single">Guide</Link></span>
 										</div>
 										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
 										{/* /.entry-meta */}
@@ -75,22 +75,22 @@ export default function Blog() {
 								</article>
 								<article className="entry-item format-standard">
 									<div className="feature-post">
-										<img src="images/blog/post-widget3.jpg" alt="image" />
+										<img src="images/blog/post-widget3.jpg" alt="" />
 									</div>{/* /.feature-post */}
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Running</Link></li>
+												<li><Link to="/blog-single">Corporate</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">From Couch to
-											5K: A
-											Step-by-Step Guide to Becoming a
-											Runner</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">Corporate Sports Day Planning: A
+											Step-by-Step Guide for
+											Teams and
+											Organisers</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Michale Chen </Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line">by <Link to="/blog-single">VETRI KALAM Team</Link></span>
+											<span className="date line"><Link to="/blog-single">Guide</Link></span>
 										</div>
 										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
 										{/* /.entry-meta */}
@@ -98,22 +98,22 @@ export default function Blog() {
 								</article>
 								<article className="entry-item format-standard">
 									<div className="feature-post">
-										<img src="images/blog/post-widget4.jpg" alt="image" />
+										<img src="images/blog/post-widget4.jpg" alt="" />
 									</div>{/* /.feature-post */}
 									<div className="main-post">
 										<div className="tag wow fadeInUp animated">
 											<ul>
-												<li><Link to="/blog-single">Running</Link></li>
+												<li><Link to="/blog-single">Registration</Link></li>
 											</ul>
 										</div>
-										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">The Best
-											Running Shoes for
-											Every Terrain: Find Your
-											Perfect Fit</Link>
+										<h2 className="entry-title wow fadeInUp animated"><Link to="/blog-single">Event Registration Made Simple:
+											A Guide for
+											Participants and
+											Organisers</Link>
 										</h2>
 										<div className="entry-meta wow fadeInUp animated">
-											<span className="author line">by <Link to="/blog-single">Maverick Nguyen</Link></span>
-											<span className="date line"><Link to="/blog-single">Oct 12, 2023</Link></span>
+											<span className="author line">by <Link to="/blog-single">VETRI KALAM Team</Link></span>
+											<span className="date line"><Link to="/blog-single">Guide</Link></span>
 										</div>
 										<Link className="more-link wow fadeInUp animated" to="/blog-single">Read More</Link>
 										{/* /.entry-meta */}

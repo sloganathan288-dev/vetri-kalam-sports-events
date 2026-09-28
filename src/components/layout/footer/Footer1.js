@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import { handleNewsletter } from "../../../utils/enquiry"
 
 export default function Footer1() {
 	return (
@@ -11,17 +12,17 @@ export default function Footer1() {
 							<div className="col-xxl-4 col-lg-4 col-xl-4 col-md-12 logo-footer">
 								<div className="widget">
 									<div className="textwidget">
-										<img id="a1" src="images/logo-footer.png" alt="images" />
-										<p>Welcome to our running community! Discover the joy of running, connect with fellow
-											enthusiasts, and unlock your full potential with our expert resources and training
-											programs.
+										<img id="a1" src="/images/logo-footer.png" alt="VETRI KALAM Sports & Events" />
+										<p>VETRI KALAM Sports & Events organises premium running, sports and corporate
+											events in Salem, Tamil Nadu, bringing athletes and communities together to
+											compete, conquer and celebrate.
 										</p>
 										<div className="social-icon-footer">
-											<Link to="/facebook.com"><i className="icon-facebook" /></Link>
-											<Link to="/linkedin.com"><i className="icon-linkedin2" /></Link>
-											<Link to="/icon-twitter.com"><i className="icon-twitter" /></Link>
-											<Link to="/instagram.com"><i className="icon-instagram" /></Link>
-											<Link to="/youtube.com"><i className="icon-youtube" /></Link>
+											<a href="#top"><i className="icon-facebook" /></a>
+											<a href="#top"><i className="icon-linkedin2" /></a>
+											<a href="#top"><i className="icon-twitter" /></a>
+											<a href="#top"><i className="icon-instagram" /></a>
+											<a href="#top"><i className="icon-youtube" /></a>
 										</div>
 									</div>
 								</div>{/* /.widget */}
@@ -57,12 +58,12 @@ export default function Footer1() {
 											<path d="M32.9554 27.7436C32.9554 28.1636 32.8804 28.5986 32.7304 29.0186C32.6854 29.1386 32.6404 29.2586 32.5804 29.3786C32.3254 29.9186 31.9954 30.4286 31.5604 30.9086C30.8254 31.7186 30.0154 32.3036 29.1004 32.6786C29.0854 32.6786 29.0704 32.6936 29.0554 32.6936C28.1704 33.0536 27.2104 33.2486 26.1754 33.2486C24.6454 33.2486 23.0104 32.8886 21.2854 32.1536C19.5604 31.4186 17.8354 30.4286 16.1254 29.1836C15.5404 28.7486 14.9554 28.3136 14.4004 27.8486L19.3054 22.9436C19.7254 23.2586 20.1004 23.4986 20.4154 23.6636C20.4904 23.6936 20.5804 23.7386 20.6854 23.7836C20.8054 23.8286 20.9254 23.8436 21.0604 23.8436C21.3154 23.8436 21.5104 23.7536 21.6754 23.5886L22.8154 22.4636C23.1904 22.0886 23.5504 21.8036 23.8954 21.6236C24.2404 21.4136 24.5854 21.3086 24.9604 21.3086C25.2454 21.3086 25.5454 21.3686 25.8754 21.5036C26.2054 21.6386 26.5504 21.8336 26.9254 22.0886L31.8904 25.6136C32.2804 25.8836 32.5504 26.1986 32.7154 26.5736C32.8654 26.9486 32.9554 27.3236 32.9554 27.7436Z" fill="white" />
 										</svg>
 										<div className="address">
-											<p>Need help? 24/7</p>
-											<span>001-1234-88888</span>
+											<p>Need help?</p>
+											<a href="tel:+918838676284">+91 88386 76284</a>
 										</div>
 									</div>
-									<p><i className="icon-MapPin" />710 1st St. Easton, PA 18042 | Chester County</p>
-									<form>
+									<p><a href="https://maps.google.com/?q=Salem,+Tamil+Nadu,+India" target="_blank" rel="noopener noreferrer"><i className="icon-MapPin" />Salem, Tamil Nadu, India</a></p>
+									<form onSubmit={(event) => handleNewsletter(event)}>
 										<div className="input-new-letter">
 											<input className="btn-email" name="email" id="emails" type="email" placeholder="Your email address" required />
 											<button className="btn-submit" type="submit"><i className="icon-uniE925" /></button>
@@ -74,15 +75,15 @@ export default function Footer1() {
 						<div className="row footer-bottom">
 							<div className="col-md-6 col-sm-12">
 								<div className="copyright">
-									<p>©2023 <Link to="/" target="_blank"> Zunzo.</Link> All Rights Reserved.
+									<p>©2026 <Link to="/" target="_blank"> VETRI KALAM.</Link> All Rights Reserved.
 									</p>
 								</div>
 							</div>{/* /.col-md-6 */}
 							<div className="col-md-6 col-sm-12">
 								<ul className="link-footer-bottom">
-									<li><Link to="/#">Terms Of Services</Link></li>
-									<li><Link to="/#">Privacy Policy</Link></li>
-									<li><Link to="/#">Cookie Policy</Link></li>
+									<li><span>Terms Of Services</span></li>
+									<li><span>Privacy Policy</span></li>
+									<li><span>Cookie Policy</span></li>
 								</ul>{/* /.menu */}
 							</div>{/* /.col-md-6 */}
 						</div>{/* /.row */}
