@@ -28,7 +28,7 @@ export default function About() {
 										<ul>
 											<li><Link to="/">Homepage</Link></li>
 											<li><i className="icon-Arrow---Right-2" /></li>
-											<li><a>About Us</a></li>
+											<li><a href="#top">About Us</a></li>
 										</ul>
 									</div>{/* /.breadcrumbs */}
 								</div>{/* /.col-md-12 */}
@@ -191,12 +191,12 @@ export default function About() {
 										<div className="mission-tab">
 											<nav>
 												<div className="nav nav-tabs" id="nav-tab" role="tablist">
-													<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="nav-home-tab" onClick={() => handleTab(1)}>our Mission</button>
-													<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Vision</button>
+													<button className={isTab === 1 ? "nav-link active" : "nav-link"} id="nav-home-tab" onClick={() => handleTab(1)}>our Mission</button>
+													<button className={isTab === 2 ? "nav-link active" : "nav-link"} id="nav-profile-tab" onClick={() => handleTab(2)}>our Vision</button>
 												</div>
 											</nav>
 											<div className="tab-content" id="nav-tabContent">
-												<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="nav-home-tab">
+												<div className={isTab === 1 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="nav-home-tab">
 													<p className="post wow fadeInUp animated">
 														Our mission is to plan and deliver sporting events that athletes,
 														communities and corporate teams look forward to, with every detail handled
@@ -241,7 +241,7 @@ export default function About() {
 														</li>
 													</ul>
 												</div>
-												<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+												<div className={isTab === 2 ? "tab-pane fade show active" : "tab-pane fade"} id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
 													<p className="post wow fadeInUp animated">
 														Our vision is to make Salem a regular stop for quality sports events
 														in Tamil Nadu, where every participant competes with confidence and
@@ -328,7 +328,7 @@ export default function About() {
 															<a href="#top"><i className="icon-twitter" /></a>
 														</li>
 														<li>
-															<a><i className="icon-youtube" /></a>
+															<a href="#top"><i className="icon-youtube" /></a>
 														</li>
 													</ul>
 												</div>
@@ -418,7 +418,7 @@ export default function About() {
 								<div className="row">
 									<div className="col-md-6 pd-form">
 										<div className="map-contact relative">
-											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="VETRI KALAM Sports & Events location map of Salem, Tamil Nadu, India" />
 										</div>
 									</div>
 									<div className="col-md-6 pd-form">

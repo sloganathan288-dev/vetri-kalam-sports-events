@@ -267,7 +267,7 @@ export default function Register() {
 									<ul>
 										<li><Link to="/">Homepage</Link></li>
 										<li><i className="icon-Arrow---Right-2" /></li>
-										<li><a>Registration</a></li>
+										<li><a href="#top">Registration</a></li>
 									</ul>
 								</div>
 							</div>

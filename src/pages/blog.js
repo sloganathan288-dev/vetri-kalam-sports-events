@@ -20,7 +20,7 @@ export default function Blog() {
 										<ul>
 											<li><Link to="/">Homepage</Link></li>
 											<li> <i className="icon-Arrow---Right-2" /></li>
-											<li><a>Latest News</a></li>
+											<li><a href="#top">Latest News</a></li>
 										</ul>
 									</div>{/* /.breadcrumbs */}
 								</div>{/* /.col-md-12 */}

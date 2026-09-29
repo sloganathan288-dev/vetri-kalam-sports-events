@@ -24,7 +24,7 @@ export default function Contact() {
 										<ul>
 											<li><Link to="/">Homepage</Link></li>
 											<li><i className="icon-Arrow---Right-2" /></li>
-											<li><a>Contact Us</a></li>
+											<li><a href="#top">Contact Us</a></li>
 										</ul>
 									</div>{/* /.breadcrumbs */}
 								</div>{/* /.col-md-12 */}

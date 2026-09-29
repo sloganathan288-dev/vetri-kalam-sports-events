@@ -102,7 +102,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 										</div>
 									</div>
 									<div className="cart">
-										<a className="nav-cart-trigger" onClick={handleCart}>
+										<a href="#top" className="nav-cart-trigger" onClick={handleCart}>
 											<svg width={21} height={24} viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<path d="M15.0078 10.8724V6.36589C15.0078 5.17068 14.533 4.02444 13.6879 3.1793C12.8428 2.33417 11.6965 1.85938 10.5013 1.85938C9.3061 1.85938 8.15985 2.33417 7.31472 3.1793C6.46958 4.02444 5.99479 5.17068 5.99479 6.36589V10.8724M2.61491 8.61914H18.3877L19.5143 22.1387H1.48828L2.61491 8.61914Z" stroke="#121212" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
 											</svg>
@@ -195,14 +195,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 												<div className="minicar-footer">
 													<ul className="tab-menu">
 														<li>
-															<a>
+															<a href="#top">
 																<svg width={21} height={20} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path d="M9.5 3.3335H3.66667C3.22464 3.3335 2.80072 3.50909 2.48816 3.82165C2.17559 4.13421 2 4.55814 2 5.00016V16.6668C2 17.1089 2.17559 17.5328 2.48816 17.8453C2.80072 18.1579 3.22464 18.3335 3.66667 18.3335H15.3333C15.7754 18.3335 16.1993 18.1579 16.5118 17.8453C16.8244 17.5328 17 17.1089 17 16.6668V10.8335" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 																	<path d="M15.75 2.0832C16.0815 1.75168 16.5312 1.56543 17 1.56543C17.4688 1.56543 17.9185 1.75168 18.25 2.0832C18.5815 2.41472 18.7678 2.86436 18.7678 3.3332C18.7678 3.80204 18.5815 4.25168 18.25 4.5832L10.3333 12.4999L7 13.3332L7.83333 9.99986L15.75 2.0832Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 																</svg>
 																Details
 															</a>
-															<a>
+															<a href="#top">
 																<svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path d="M13.3333 2.5H0.833252V13.3333H13.3333V2.5Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 																	<path d="M13.3333 6.6665H16.6666L19.1666 9.1665V13.3332H13.3333V6.6665Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -211,7 +211,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 																</svg>
 																Location
 															</a>
-															<a>
+															<a href="#top">
 																<svg width={21} height={20} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path d="M17.8252 11.1748L11.8502 17.1498C11.6954 17.3048 11.5116 17.4277 11.3092 17.5116C11.1069 17.5955 10.89 17.6386 10.671 17.6386C10.452 17.6386 10.2351 17.5955 10.0328 17.5116C9.83043 17.4277 9.64662 17.3048 9.49183 17.1498L2.3335 9.99984V1.6665H10.6668L17.8252 8.82484C18.1356 9.13711 18.3098 9.55953 18.3098 9.99984C18.3098 10.4401 18.1356 10.8626 17.8252 11.1748V11.1748Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 																	<path d="M6.50049 5.8335H6.51049" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -284,14 +284,14 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 					<div className="canvas-nav-wrap">
 						<ul className="nav nav-tabs nav-justified" id="myTab" role="tablist">
 							<li className="nav-item" onClick={() => handleTab(1)}>
-								<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Menu</button>
+								<button className={isTab === 1 ? "nav-link active" : "nav-link"} id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Menu</button>
 							</li>
 							<li className="nav-item" onClick={() => handleTab(2)}>
-								<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Categories</button>
+								<button className={isTab === 2 ? "nav-link active" : "nav-link"} id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Categories</button>
 							</li>
 						</ul>
 						<div className="tab-content" id="myTabContent">
-							<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div className={isTab === 1 ? "tab-pane fade show active" : "tab-pane fade"} id="home" role="tabpanel" aria-labelledby="home-tab">
 								<nav id="mainnav_canvas" className="mainnav_canvas" role="navigation">
 									<ul id="menu-main-nav-1" className="menu">
 										<li className="menu-item menu-item-has-children-mobile">
@@ -340,7 +340,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 											<Link to="/contact">Contact Us</Link>
 										</li>
 										<li className="menu-item">
-											<a className="menu-icon-sidebar">
+											<a href="#top" className="menu-icon-sidebar">
 												<svg width={18} height={18} viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path d="M16.9424 16.058L13.0306 12.1471C14.1644 10.7859 14.7298 9.04002 14.6091 7.27263C14.4884 5.50524 13.691 3.85241 12.3828 2.65797C11.0745 1.46353 9.35615 0.819439 7.5851 0.859689C5.81406 0.899939 4.12671 1.62143 2.87407 2.87407C1.62143 4.12671 0.899939 5.81406 0.859689 7.5851C0.819439 9.35615 1.46353 11.0745 2.65797 12.3828C3.85241 13.691 5.50524 14.4884 7.27263 14.6091C9.04002 14.7298 10.7859 14.1644 12.1471 13.0306L16.058 16.9424C16.1161 17.0004 16.185 17.0465 16.2609 17.0779C16.3367 17.1094 16.4181 17.1255 16.5002 17.1255C16.5823 17.1255 16.6636 17.1094 16.7395 17.0779C16.8154 17.0465 16.8843 17.0004 16.9424 16.9424C17.0004 16.8843 17.0465 16.8154 17.0779 16.7395C17.1094 16.6636 17.1255 16.5823 17.1255 16.5002C17.1255 16.4181 17.1094 16.3367 17.0779 16.2609C17.0465 16.185 17.0004 16.1161 16.9424 16.058ZM2.12518 7.75018C2.12518 6.63766 2.45508 5.55012 3.07316 4.6251C3.69124 3.70007 4.56975 2.9791 5.59758 2.55336C6.62542 2.12761 7.75642 2.01622 8.84756 2.23326C9.9387 2.4503 10.941 2.98603 11.7277 3.7727C12.5143 4.55937 13.0501 5.56165 13.2671 6.6528C13.4841 7.74394 13.3727 8.87494 12.947 9.90277C12.5213 10.9306 11.8003 11.8091 10.8753 12.4272C9.95023 13.0453 8.8627 13.3752 7.75018 13.3752C6.25884 13.3735 4.82906 12.7804 3.77453 11.7258C2.72 10.6713 2.12683 9.24151 2.12518 7.75018Z" fill="#121212" />
 												</svg>
@@ -375,7 +375,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
 									</ul>
 								</nav>{/* #mainnav_canvas */}
 							</div>
-							<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<div className={isTab === 2 ? "tab-pane fade show active" : "tab-pane fade"} id="profile" role="tabpanel" aria-labelledby="profile-tab">
 								<nav id="mainnav_canvas2" className="mainnav_canvas" role="navigation">
 									<ul id="menu-main-nav-2" className="menu">
 										<li className="menu-item menu-item-has-children-mobile">

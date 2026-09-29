@@ -17,16 +17,16 @@ export default function Product2() {
 							<h2 className="title-section wow fadeInUp animated">Events & Registration</h2>
 							<ul className="nav nav-tabs justify-content-end tab-our-product" id="myTab2" role="tablist">
 								<li className="nav-item" onClick={() => handleTab(1)}>
-									<button className={isTab == 1 ? "nav-link active" : "nav-link"} id="home-tab2" data-bs-toggle="tab" data-bs-target="#home2" type="button" role="tab" aria-controls="home" aria-selected="true">Upcoming Events</button>
+									<button className={isTab === 1 ? "nav-link active" : "nav-link"} id="home-tab2" data-bs-toggle="tab" data-bs-target="#home2" type="button" role="tab" aria-controls="home" aria-selected="true">Upcoming Events</button>
 								</li>
 								<li className="nav-item" onClick={() => handleTab(2)}>
-									<button className={isTab == 2 ? "nav-link active" : "nav-link"} id="profile-tab2" data-bs-toggle="tab" data-bs-target="#profile2" type="button" role="tab" aria-controls="profile" aria-selected="false">Popular
+									<button className={isTab === 2 ? "nav-link active" : "nav-link"} id="profile-tab2" data-bs-toggle="tab" data-bs-target="#profile2" type="button" role="tab" aria-controls="profile" aria-selected="false">Popular
 										events</button>
 								</li>
 							</ul>
 						</div>
 						<div className="tab-content" id="myTabContents">
-							<div className={isTab == 1 ? "tab-pane fade show active" : "tab-pane fade"} id="home2" role="tabpanel" aria-labelledby="home-tab2">
+							<div className={isTab === 1 ? "tab-pane fade show active" : "tab-pane fade"} id="home2" role="tabpanel" aria-labelledby="home-tab2">
 								<div className="widget-our-product">
 									<div className="our-product-item wow fadeInUp animated" data-wow-delay="0.1s">
 										<div className="featured-product">
@@ -350,7 +350,7 @@ export default function Product2() {
 									</div>
 								</div>
 							</div>
-							<div className={isTab == 2 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="profile-tab2">
+							<div className={isTab === 2 ? "tab-pane fade show active" : "tab-pane fade"} role="tabpanel" aria-labelledby="profile-tab2">
 								<div className="widget-our-product">
 									<div className="our-product-item wow fadeInUp animated" data-wow-delay="0.1s">
 										<div className="featured-product">

@@ -71,7 +71,7 @@ export default function Testimonial2() {
 									</div>
 									<div className="map">
 										<div className="wg-map relative">
-											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={300} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={300} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="Map of Salem, Tamil Nadu, India" />
 										</div>
 									</div>
 								</div>

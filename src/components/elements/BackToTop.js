@@ -23,7 +23,7 @@ export default function BackToTop({ target,backAlt }) {
 	return (
 		<>
 			{hasScrolled && (
-				<a className={`go-top show ${backAlt?"back-alt":""}`} onClick={handleClick}>
+				<a href="#top" className={`go-top show ${backAlt?"back-alt":""}`} onClick={handleClick}>
 					<i class="icon-ctrl"></i>
 				</a>
 

@@ -200,7 +200,7 @@ export default function AdminDashboard() {
 									<ul>
 										<li><Link to="/">Homepage</Link></li>
 										<li><i className="icon-Arrow---Right-2" /></li>
-										<li><a>Registrations</a></li>
+										<li><a href="#top">Registrations</a></li>
 									</ul>
 								</div>
 							</div>

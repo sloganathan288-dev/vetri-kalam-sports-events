@@ -54,7 +54,7 @@ export default function AdminLogin() {
 									<ul>
 										<li><Link to="/">Homepage</Link></li>
 										<li><i className="icon-Arrow---Right-2" /></li>
-										<li><a>Organiser Dashboard</a></li>
+										<li><a href="#top">Organiser Dashboard</a></li>
 									</ul>
 								</div>
 							</div>

@@ -42,7 +42,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				isCart={isCart}
 				handleCart={handleCart}
 			/>}
-			{headerStyle == 1 ? <Header1
+			{headerStyle === 1 ? <Header1
 				scroll={scroll}
 				isMobileMenu={isMobileMenu}
 				handleMobileMenu={handleMobileMenu}
@@ -50,7 +50,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				handleCart={handleCart}
 			/> : null}
 
-			{headerStyle == 2 ? <Header2
+			{headerStyle === 2 ? <Header2
 				scroll={scroll}
 				isMobileMenu={isMobileMenu}
 				handleMobileMenu={handleMobileMenu}
@@ -63,8 +63,8 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			{children}
 
 			{!footerStyle && < Footer1 />}
-			{footerStyle == 1 ? < Footer1 /> : null}
-			{footerStyle == 2 ? < Footer2 /> : null}
+			{footerStyle === 1 ? < Footer1 /> : null}
+			{footerStyle === 2 ? < Footer2 /> : null}
 
 			<BackToTop target="#top" backAlt={backAlt} />
 

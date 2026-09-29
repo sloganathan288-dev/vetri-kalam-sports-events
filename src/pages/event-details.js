@@ -22,7 +22,7 @@ export default function EventDetails() {
 										<ul>
 											<li><Link to="/">Homepage</Link></li>
 											<li> <i className="icon-Arrow---Right-2" /></li>
-											<li><a>Event Detail</a></li>
+											<li><a href="#top">Event Detail</a></li>
 										</ul>
 									</div>{/* /.breadcrumbs */}
 								</div>{/* /.col-md-12 */}
@@ -160,7 +160,7 @@ export default function EventDetails() {
 								<div className="row">
 									<div className="col-md-6 pd-form">
 										<div className="map-contact relative">
-											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+											<iframe src="https://maps.google.com/maps?q=Salem%2C%20Tamil%20Nadu%2C%20India&z=12&ie=UTF8&iwloc=&output=embed" height={585} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="VETRI KALAM Sports & Events location map - Salem, Tamil Nadu" />
 										</div>
 									</div>
 									<div className="col-md-6 pd-form">

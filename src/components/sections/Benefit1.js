@@ -50,7 +50,7 @@ export default function Benefit1() {
 								<div className="col-md-4 benefit-center ">
 									<div className="benefit-video">
 										<img className="video" src="images/retinal/video.jpg" alt="" />
-										<a onClick={() => setOpen(true)} className="popup-youtube">
+										<a href="#top" onClick={() => setOpen(true)} className="popup-youtube">
 											<i className="icon-play3" />
 										</a>
 										<img className="shape-video-1" src="images/retinal/Inforgraphic.png" alt="" />

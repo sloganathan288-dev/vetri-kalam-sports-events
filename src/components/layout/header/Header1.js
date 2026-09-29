@@ -52,7 +52,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
 						</div>{/* /.nav-wrap */}
 						<div className="header-right">
 							<div className="search">
-								<a className={`show-search ${isToggled ? 'active-search' : ''}`} onClick={handleToggled}>
+								<a href="#top" className={`show-search ${isToggled ? 'active-search' : ''}`} onClick={handleToggled}>
 									<svg width={20} height={20} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
 										<path d="M21.0004 21.0004L16.6504 16.6504" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
@@ -74,7 +74,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
 								<Link to="/register">Register</Link>
 							</div>
 							<div className="cart">
-								<a className="nav-cart-trigger" onClick={handleCart} aria-label="Your entries">
+								<a href="#top" className="nav-cart-trigger" onClick={handleCart} aria-label="Your entries">
 									<i className="icon-ShoppingCart" />
 								</a>
 								{/*car-box*/}
@@ -162,14 +162,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
 										<div className="minicar-footer">
 											<ul className="tab-menu">
 												<li>
-													<a>
+													<a href="#top">
 														<svg width={21} height={20} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M9.5 3.3335H3.66667C3.22464 3.3335 2.80072 3.50909 2.48816 3.82165C2.17559 4.13421 2 4.55814 2 5.00016V16.6668C2 17.1089 2.17559 17.5328 2.48816 17.8453C2.80072 18.1579 3.22464 18.3335 3.66667 18.3335H15.3333C15.7754 18.3335 16.1993 18.1579 16.5118 17.8453C16.8244 17.5328 17 17.1089 17 16.6668V10.8335" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															<path d="M15.75 2.0832C16.0815 1.75168 16.5312 1.56543 17 1.56543C17.4688 1.56543 17.9185 1.75168 18.25 2.0832C18.5815 2.41472 18.7678 2.86436 18.7678 3.3332C18.7678 3.80204 18.5815 4.25168 18.25 4.5832L10.3333 12.4999L7 13.3332L7.83333 9.99986L15.75 2.0832Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 														</svg>
 														Details
 													</a>
-													<a>
+													<a href="#top">
 														<svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M13.3333 2.5H0.833252V13.3333H13.3333V2.5Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															<path d="M13.3333 6.6665H16.6666L19.1666 9.1665V13.3332H13.3333V6.6665Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -178,7 +178,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
 														</svg>
 														Location
 													</a>
-													<a>
+													<a href="#top">
 														<svg width={21} height={20} viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 															<path d="M17.8252 11.1748L11.8502 17.1498C11.6954 17.3048 11.5116 17.4277 11.3092 17.5116C11.1069 17.5955 10.89 17.6386 10.671 17.6386C10.452 17.6386 10.2351 17.5955 10.0328 17.5116C9.83043 17.4277 9.64662 17.3048 9.49183 17.1498L2.3335 9.99984V1.6665H10.6668L17.8252 8.82484C18.1356 9.13711 18.3098 9.55953 18.3098 9.99984C18.3098 10.4401 18.1356 10.8626 17.8252 11.1748V11.1748Z" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 															<path d="M6.50049 5.8335H6.51049" stroke="#121212" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
