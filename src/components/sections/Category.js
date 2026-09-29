@@ -16,7 +16,7 @@ export default function Category() {
 								<div className="inner">
 									<Link to="/event">
 										<div className="category-thumbnail">
-											<img src="images/product/categories.png" className="img-thumbnail" alt="VETRI KALAM event category" />
+											<img src="images/product/categories.jpg" className="img-thumbnail" alt="VETRI KALAM event category" />
 										</div>
 									</Link>
 									<h5 className="category-title">
@@ -28,7 +28,7 @@ export default function Category() {
 								<div className="inner">
 									<Link to="/event">
 										<div className="category-thumbnail">
-											<img src="images/product/categories1.png" className="img-thumbnail" alt="VETRI KALAM event category" />
+											<img src="images/product/categories1.jpg" className="img-thumbnail" alt="VETRI KALAM event category" />
 										</div>
 									</Link>
 									<h5 className="category-title">
@@ -40,7 +40,7 @@ export default function Category() {
 								<div className="inner">
 									<Link to="/event">
 										<div className="category-thumbnail">
-											<img src="images/product/categories2.png" className="img-thumbnail" alt="VETRI KALAM event category" />
+											<img src="images/product/categories2.jpg" className="img-thumbnail" alt="VETRI KALAM event category" />
 										</div>
 									</Link>
 									<h5 className="category-title">
@@ -52,7 +52,7 @@ export default function Category() {
 								<div className="inner">
 									<Link to="/event">
 										<div className="category-thumbnail">
-											<img src="images/product/categories3.png" className="img-thumbnail" alt="VETRI KALAM event category" />
+											<img src="images/product/categories3.jpg" className="img-thumbnail" alt="VETRI KALAM event category" />
 										</div>
 									</Link>
 									<h5 className="category-title">
@@ -64,7 +64,7 @@ export default function Category() {
 								<div className="inner">
 									<Link to="/register">
 										<div className="category-thumbnail">
-											<img src="images/product/categories4.png" className="img-thumbnail" alt="VETRI KALAM event category" />
+											<img src="images/product/categories4.jpg" className="img-thumbnail" alt="VETRI KALAM event category" />
 										</div>
 									</Link>
 									<h5 className="category-title">

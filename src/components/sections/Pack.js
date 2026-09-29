@@ -109,7 +109,7 @@ export default function Pack() {
 											<div className="label-product">
 												<div className="sale-percent">OPEN</div>
 											</div>
-											<img className="image-thumnail" src="images/product/13.png" alt="Corporate Sports Challenge" />
+											<img className="image-thumnail" src="images/product/13.jpg" alt="Corporate Sports Challenge" />
 										</Link>
 										<div className="wrap-btn-action">
 											<div className="tf-btn-wishlish">
@@ -154,7 +154,7 @@ export default function Pack() {
 											<div className="label-product">
 												<span className="label-new">NEW</span>
 											</div>
-											<img className="image-thumnail" src="images/product/14.png" alt="Youth Sports Championship" />
+											<img className="image-thumnail" src="images/product/14.jpg" alt="Youth Sports Championship" />
 										</Link>
 										<div className="wrap-btn-action">
 											<div className="tf-btn-wishlish">
@@ -194,7 +194,7 @@ export default function Pack() {
 											<div className="label-product">
 												<span className="label-new">NEW</span>
 											</div>
-											<img className="image-thumnail" src="images/product/7.png" alt="Sports Competitions" />
+											<img className="image-thumnail" src="images/product/7.jpg" alt="Sports Competitions" />
 										</Link>
 										<div className="wrap-btn-action">
 											<div className="tf-btn-wishlish">

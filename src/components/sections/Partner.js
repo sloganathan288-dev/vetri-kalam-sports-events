@@ -61,40 +61,40 @@ export default function Partner() {
 					<div className="tf-partner">
 						<Swiper {...swiperOptions} className="sologan-logo">
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/5.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg5.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/2.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg2.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/3.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg3.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/4.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg4.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/6.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg6.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/1.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg1.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/5.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg5.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/2.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg2.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/3.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg3.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/4.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg4.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/6.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg6.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 							<SwiperSlide>
-								<img className="image-logo" src="images/retinal/1.png" alt="VETRI KALAM sports event" />
+								<img className="image-logo" src="images/retinal/slg1.jpg" alt="VETRI KALAM sports event" />
 							</SwiperSlide>
 						</Swiper>
 					</div>

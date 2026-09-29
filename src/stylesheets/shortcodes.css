@@ -1233,6 +1233,11 @@ p.flat-description-slider {
 	display: block;
 }
 
+.benefit-number {
+	position: relative;
+	z-index: 2;
+}
+
 .benefit-number span.number {
 	font-family: "Oswald", sans-serif;
 	font-weight: 400;

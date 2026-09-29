@@ -11,16 +11,16 @@ export default function About1() {
 							<div className="col-md-6 image-wraper">
 								<div className="media">
 									<div className="media-v1 wow fadeInLeft animated">
-										<img className="mask-media" src="images/about/mask1.png" alt="" />
-										<img className="shape-media" src="images/about/graphic.png" alt="" />
+										<img className="mask-media" src="images/about/mask1.jpg" alt="" />
+										<img className="shape-media" src="images/about/graphic.jpg" alt="" />
 									</div>
-									<img src="images/about/mask2.png" alt="" className="image-gr wow fadeInRight animated" />
+									<img src="images/about/mask2.jpg" alt="" className="image-gr wow fadeInRight animated" />
 									<img src="images/about/Intersect.png" alt="" className="intersect-img" />
 								</div>
 							</div>
 							<div className="col-md-6">
 								<div className="about-box">
-									<img src="images/about/graphic-box.png" alt="" />
+									<img src="images/about/graphic-box.jpg" alt="" />
 									{/* header style v1 */}
 									<div className="title-box title-small-v2">
 										<span className="sub-title wow fadeInUp animated">Welcome to VETRI KALAM!</span>

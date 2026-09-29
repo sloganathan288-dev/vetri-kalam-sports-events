@@ -34,7 +34,7 @@ export default function Product2() {
 												<div className="label-product">
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/5.png" alt="VETRI KALAM Marathon" />
+												<img className="image-thumnail" src="images/product/5.jpg" alt="VETRI KALAM Marathon" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -74,7 +74,7 @@ export default function Product2() {
 												<div className="label-product">
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/6.png" alt="VETRI KALAM Sports Fest" />
+												<img className="image-thumnail" src="images/product/6.jpg" alt="VETRI KALAM Sports Fest" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -119,7 +119,7 @@ export default function Product2() {
 												<div className="label-product">
 													<span className="label-new">NEW</span>
 												</div>
-												<img className="image-thumnail" src="images/product/7.png" alt="Community Run" />
+												<img className="image-thumnail" src="images/product/7.jpg" alt="Community Run" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -160,7 +160,7 @@ export default function Product2() {
 													<span className="label-new">NEW</span>
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/8.png" alt="Corporate Sports Challenge" />
+												<img className="image-thumnail" src="images/product/8.jpg" alt="Corporate Sports Challenge" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -200,7 +200,7 @@ export default function Product2() {
 												<div className="label-product">
 													<span className="label-new">NEW</span>
 												</div>
-												<img className="image-thumnail" src="images/product/9.png" alt="Youth Sports Championship" />
+												<img className="image-thumnail" src="images/product/9.jpg" alt="Youth Sports Championship" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -237,7 +237,7 @@ export default function Product2() {
 												<div className="label-product">
 													<span className="label-new">NEW</span>
 												</div>
-												<img className="image-thumnail" src="images/product/10.png" alt="Running & Marathon Events" />
+												<img className="image-thumnail" src="images/product/10.jpg" alt="Running & Marathon Events" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -275,7 +275,7 @@ export default function Product2() {
 												<div className="label-product">
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/11.png" alt="Sports Competitions" />
+												<img className="image-thumnail" src="images/product/11.jpg" alt="Sports Competitions" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -315,7 +315,7 @@ export default function Product2() {
 												<div className="label-product">
 													<span className="label-new">NEW</span>
 												</div>
-												<img className="image-thumnail" src="images/product/12.png" alt="Corporate Sports Events" />
+												<img className="image-thumnail" src="images/product/12.jpg" alt="Corporate Sports Events" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -358,7 +358,7 @@ export default function Product2() {
 												<div className="label-product">
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/5.png" alt="Community Sports Events" />
+												<img className="image-thumnail" src="images/product/5.jpg" alt="Community Sports Events" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -398,7 +398,7 @@ export default function Product2() {
 												<div className="label-product">
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/6.png" alt="Event Registration & Ticketing" />
+												<img className="image-thumnail" src="images/product/6.jpg" alt="Event Registration & Ticketing" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -443,7 +443,7 @@ export default function Product2() {
 												<div className="label-product">
 													<span className="label-new">NEW</span>
 												</div>
-												<img className="image-thumnail" src="images/product/7.png" alt="Sports Event Management" />
+												<img className="image-thumnail" src="images/product/7.jpg" alt="Sports Event Management" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">
@@ -484,7 +484,7 @@ export default function Product2() {
 													<span className="label-new">NEW</span>
 													<div className="sale-percent">OPEN</div>
 												</div>
-												<img className="image-thumnail" src="images/product/8.png" alt="VETRI KALAM Marathon" />
+												<img className="image-thumnail" src="images/product/8.jpg" alt="VETRI KALAM Marathon" />
 											</Link>
 											<div className="wrap-btn-action">
 												<div className="tf-btn-wishlish">

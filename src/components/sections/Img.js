@@ -15,28 +15,28 @@ export default function Img() {
 						<div className="logo-client">
 							<div className="row">
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/1.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.1s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc1.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.1s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/2.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.3s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc2.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.3s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/3.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.5s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc3.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.5s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/4.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.7s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc4.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.7s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/5.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.1s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc5.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.1s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/5.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.3s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc6.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.3s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/6.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.5s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc7.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.5s" /></Link>
 								</div>
 								<div className="col-md-6 col-xxl-3 pd-img">
-									<Link to="/event"><img src="images/retinal/7.png" alt="VETRI KALAM sports event" className="wow zoomIn animated" data-wow-delay="0.7s" /></Link>
+									<Link to="/event"><img src="images/retinal/svc8.jpg" alt="VETRI KALAM sports event" style={{ width: "100%", height: "100%", objectFit: "cover" }} className="wow zoomIn animated" data-wow-delay="0.7s" /></Link>
 								</div>
 							</div>
 						</div>
