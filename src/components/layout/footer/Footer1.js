@@ -84,6 +84,7 @@ export default function Footer1() {
 									<li><span>Terms Of Services</span></li>
 									<li><span>Privacy Policy</span></li>
 									<li><span>Cookie Policy</span></li>
+									<li><Link to="/admin/login">Admin Login</Link></li>
 								</ul>{/* /.menu */}
 							</div>{/* /.col-md-6 */}
 						</div>{/* /.row */}

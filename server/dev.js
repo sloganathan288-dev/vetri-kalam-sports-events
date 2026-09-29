@@ -38,6 +38,7 @@ const ROUTES = [
   { method: 'GET', pattern: /^\/api\/export$/, file: 'api/export.js' },
   { method: '*', pattern: /^\/api\/registrations$/, file: 'api/registrations.js' },
   { method: '*', pattern: /^\/api\/registrations\/([^/]+)$/, file: 'api/registrations/[id].js' },
+  { method: 'POST', pattern: /^\/api\/check-registration$/, file: 'api/check-registration.js' },
 ]
 
 // Load (and reload) handlers. Shared `lib/*` modules are invalidated on every

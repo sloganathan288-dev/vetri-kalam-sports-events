@@ -312,7 +312,8 @@ export default function Register() {
 									<button type="button" className="flat-button" onClick={reset}>
 										<span>Register another participant</span>
 									</button>
-									<Link to="/event" className="flat-button vk-btn-ghost"><span>View events</span></Link>
+									<Link to="/check-registration" className="flat-button vk-btn-ghost"><span>Check Registration</span></Link>
+								<Link to="/event" className="flat-button vk-btn-ghost"><span>View events</span></Link>
 								</div>
 							</div>
 						) : (

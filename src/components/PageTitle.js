@@ -15,6 +15,7 @@ const TITLES = {
 	'/event': `Our Events | ${BRAND}`,
 	'/event-details': `Event Details | ${BRAND}`,
 	'/register': `Registration | ${BRAND}`,
+	'/check-registration': `Check Registration | ${BRAND}`,
 	'/admin/login': `Organizer Sign In | ${BRAND}`,
 	'/admin/dashboard': `Organizer Dashboard | ${BRAND}`,
 }
@@ -31,6 +32,7 @@ const DESCRIPTIONS = {
 	'/event': 'Upcoming VETRI KALAM events — marathons, sports festivals, community runs, corporate challenges and youth championships.',
 	'/event-details': 'Event details, categories and entry information for VETRI KALAM Sports & Events.',
 	'/register': 'Register for a VETRI KALAM event — enter your details, choose a category and receive your registration ID.',
+	'/check-registration': 'Check the status of your VETRI KALAM event registration using your registration ID and phone number.',
 	'/admin/login': 'Sign in to the VETRI KALAM organiser dashboard to manage event registrations.',
 	'/admin/dashboard': 'VETRI KALAM organiser dashboard — view, search, filter and export event registrations.',
 }

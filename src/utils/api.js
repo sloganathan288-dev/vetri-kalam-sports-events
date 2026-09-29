@@ -114,6 +114,17 @@ export function login(email, password) {
   })
 }
 
+/**
+ * Customer self-service lookup — registration code + registered phone.
+ * Resolves only when both fields match the same stored registration.
+ */
+export function checkRegistration(registrationId, phone) {
+  return request('/check-registration', {
+    method: 'POST',
+    body: JSON.stringify({ registrationId, phone }),
+  })
+}
+
 // ----------------------------------------------------------------- admin ---
 
 function toQuery(params) {

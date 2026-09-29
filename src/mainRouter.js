@@ -11,6 +11,7 @@ import Homev2 from './pages/homev2'
 import Homev3 from './pages/homev3'
 import Home from './pages/index'
 import Register from './pages/register'
+import CheckRegistration from './pages/check-registration'
 import AdminLogin from './pages/admin-login'
 import AdminDashboard from './pages/admin-dashboard'
 
@@ -30,6 +31,7 @@ export default function MainRouter() {
 					<Route path="/homeV2" element={<Homev2 />} />
 					<Route path="/homeV3" element={<Homev3 />} />
 					<Route path="/register" element={<Register />} />
+					<Route path="/check-registration" element={<CheckRegistration />} />
 					<Route path="/admin/login" element={<AdminLogin />} />
 					<Route path="/admin/dashboard" element={<AdminDashboard />} />
 				</Routes>

@@ -41,6 +41,7 @@ export default function Menu() {
 					</ul>{/* /.submenu */}
 				</li>
 				<li className={`item ${location.pathname === "/contact" ? "current-menu-item" : ""}`}><Link to="/contact">Contact us</Link></li>
+				<li className={`item ${location.pathname === "/check-registration" ? "current-menu-item" : ""}`}><Link to="/check-registration">Check Registration</Link></li>
 			</ul>{/* /.menu */}
 		</>
 	)
